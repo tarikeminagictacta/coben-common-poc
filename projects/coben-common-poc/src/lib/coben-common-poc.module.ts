@@ -1,10 +1,18 @@
-import { NgModule } from '@angular/core';
-import { CobenCommonPocComponent } from './coben-common-poc.component';
 
+
+// @ts-ignore
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CobenContainerComponent } from './navbar/coben-container.component';
+import { NgModule } from '@angular/core';
+import { SidebarModule } from 'ng-sidebar';
+
+// @ts-ignore
 @NgModule({
-  declarations: [CobenCommonPocComponent],
+  declarations: [CobenContainerComponent],
   imports: [
+    NgbModule,
+    SidebarModule.forRoot()
   ],
-  exports: [CobenCommonPocComponent]
+  exports: [CobenContainerComponent, NgbModule]
 })
 export class CobenCommonPocModule { }

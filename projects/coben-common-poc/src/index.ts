@@ -3,5 +3,4 @@
  */
 
 export * from './lib/coben-common-poc.service';
-export * from './lib/coben-common-poc.component';
 export * from './lib/coben-common-poc.module';
