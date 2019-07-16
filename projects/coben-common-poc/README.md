@@ -22,3 +22,8 @@ Run `ng test coben-common-poc` to execute the unit tests via [Karma](https://kar
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Install instructions
+
+To install our package run `npm i @cobe/common ngx-bootstrap`. If you do not install `ngx-bootstrap`, our package will look ugly.
