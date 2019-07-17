@@ -1,0 +1,3793 @@
+{
+  "admin": {
+    "leftnav": {
+      "algemeen": "Général",
+      "postcodes": "Codes postals",
+      "voordelen": "Avantages",
+      "legitimatiekaart": "Carte de légitimation",
+      "configuratie-legitimatiekaart": "Configuration carte de légitimation",
+      "sociaal-voordeel": "Avantage Social",
+      "sociaal-voordeel-printing": "Avantage Social imprimer",
+      "werkloosheid": "Chômage",
+      "emails": "Courriels",
+      "medisch-plan": "Plan médical",
+      "hospi": "Hospitalisation",
+      "terugvordering": {
+        "terugvordering": "_Récupération",
+        "tawv": "_FR_TAWV",
+        "tawvConfig": "_FR_Configuration"
+      },
+      "alternerend-leren": "FR_Apprentissage alterné"
+    },
+    "postcodes": {
+      "title": "Codes postals",
+      "upload": "_FR_Opladen",
+      "download": "Télécharger",
+      "drag-and-drop-message": "_FR_Klik of sleep bestanden hier om deze op te laden (enkel JSON-bestanden).",
+      "upload-error-message": "_FR_Er is iets fout gelopen bij het opladen van het bestand",
+      "upload-success-message": "_FR_Het bestand is succesvol opgeladen",
+      "download-error-message": "_FR_Er is iets fout gelopen bij het ophalen van het bestand",
+      "download-latest-file": "Téléchargez la dernière version"
+    },
+    "algemeen": {
+      "titel": "Général",
+      "configuraties": "Configurations",
+      "postcodes": "Codes postals"
+    },
+    "emails": {
+      "title": "Paramètres courriels",
+      "parameters": "Paramètres",
+      "voordelen": {
+        "werkloosheid": "Chômage"
+      },
+      "emailconfig": {
+        "to": "à",
+        "cc": "cc"
+      },
+      "save-button": "Sauvegarder",
+      "parameters-error": "une erreur s'est produite au cours du téléchargement des paramètres",
+      "comma-separated": "Veuillez indiquer les différentes adresses email separées par des virgules",
+      "validation-error": "Les adresses email doivent être valides et separées par des virgules",
+      "werkloosheid": {
+        "ABVV": "FGTB",
+        "HVW": "CAPAC",
+        "ACV": "CSC",
+        "ACLVB": "CGSLB"
+      }
+    },
+    "voordelen": {
+      "title": "Configuration avantages",
+      "algemeen": {
+        "opgelet": "Attention,",
+        "info-triggers-bulksimulatie": " sauvegarder les paramètres déclanche cette nuit une nouvelle simulation massive pour cet avantage et année.",
+        "parameters": "Paramètres"
+      },
+      "alternerend-leren": {
+        "languages": {
+          "dutch": "Néerlandais",
+          "french": "Français",
+          "german": "Allemand"
+        },
+        "parameters": {
+          "parameter-JaarPremie1": "FR_Leerpremie 1",
+          "parameter-JaarPremie2": "FR_Leerpremie 2",
+          "parameter-BiBInstroomPremie": "FR_Instroompremie",
+          "parameter-BiBDoorstroomPremie": "FR_BouwIngroeiPremie",
+          "parameter-PersoonlijkeBijdrageRSZ": "FR_Persoonlijke bijdrage RSZ",
+          "parameter-PatronaleBijdrageRSZ": "FR_Patronale bijdrage RSZ",
+          "parameter-BijzondereBijdrageFSO": "FR_Bijzondere bijdrage FSO",
+          "parameter-BijzondereBijdrage859": "FR_ijzondere bijdrage 859",
+          "parameter-BijdrageVakantieFonds": "FR_Bijdrage vakantie fonds",
+          "parameter-BasisBrutoVerhoging": "FR_Verhoogd bruto percentage"
+        },
+        "premies": "FR_Premies",
+        "bijdrages": "FR_Bijdrages",
+        "attachments": "FR_Attachments",
+        "attachment-updated": "FR_Attachment succesvol opgeslagen",
+        "set-updated": "FR_Parameters succesvol opgeslagen",
+        "attachment-types": {
+          "briefA": "_briefA"
+        },
+        "bijdrages-tabpanel": {
+          "bijdrages": {
+            "bijdrages": "FR_Bijdrages",
+            "bijdrages-for-al": {
+              "min18": "FR_-18 jarigen",
+              "plus18": "FR_+ 18 jarigen",
+              "input-fields-bijdrages": {
+                "parameters-opslaan": "FR_Parameters opslaan"
+              }
+            }
+          }
+        },
+        "premies-tabpanel": {
+          "premies": {
+            "premies": "FR_Bruto premies",
+            "premies-for-al": {
+              "parameters-opslaan": "FR_Parameters opslaan"
+            }
+          }
+        },
+        "copy-modal": {
+          "copy-set": "FR_Gekopiëerde set: ",
+          "parameterset": "FR_Parameterset",
+          "ok": "FR_Ok",
+          "cancel": "FR_Annuleer",
+          "set-exists": "FR_Er bestaat al een set voor dit startkwartaal",
+          "set-saved": "FR_Nieuwe set succesvol aangemaakt"
+        },
+        "kwartaal-input": {
+          "startkwartaal": "FR_Startkwartaal"
+        },
+        "parameter-set": {
+          "parameterset": "FR_Parameterset",
+          "copy": "FR_Kopiëer"
+        }
+      },
+      "terugvordering": {
+        "common": {
+          "toast": {
+            "ongeldige-parameters": "_FR_Ongeldige parameters",
+            "ongeldige-parameters-type": "_FR_Paramater type niet gekend"
+          }
+        },
+        "tawv": {
+          "titleParameters": "_FR_TAWV Parameters",
+          "titleConfiguratie": "_FR_TAWV Configuratie",
+          "save-button": "_FR_Configuratie Opslaan",
+          "configuratie-opgeslaan": "_FR_Configuratie voor refertejaar {0} succesvol opgeslaan.",
+          "parameters-opgeslaan": "_FR_Parameters voor refertejaar {0} succesvol opgeslaan.",
+          "configuratie": "_FR_Configuratie",
+          "cao": {
+            "title": "_FR_CAO",
+            "nl": "_FR_Nederlands",
+            "fr": "_FR_Frans"
+          },
+          "extraKostenDescriptions": {
+            "title": "_FR_Beschrijvingen extra kosten",
+            "nl": "_FR_Nederlands",
+            "fr": "_FR_Frans",
+            "acties": "_FR_Acties",
+            "toevoegen": "_FR_Toevoegen",
+            "duplicate-entries": "_FR_De extra kosten beschrijving bevat duplicaten"
+          },
+          "berekening": {
+            "title": "_FR_Berekening",
+            "toeslag": {
+              "eco15": "_FR_Toeslag Eco15",
+              "eco30": "_FR_Toeslag Eco30",
+              "vanaf": "_FR_Vanaf",
+              "tot": "_FR_Tot"
+            }
+          },
+          "opvolging": {
+            "title": "_FR_Opvolging",
+            "betalingsherinnering-title": "_FR_Betalingsherinnering",
+            "juridische-procedure-title": "_FR_Juridische procedure",
+            "gerechtsdeurwaarder-title": "_FR_Gerechtsdeurwaarder",
+            "minimumbedrag": "_FR_Minimum bedrag",
+            "termijn": "_FR_Termijn"
+          }
+        }
+      },
+      "legitimatiekaart": {
+        "title": "Paramètres carte de légitimation",
+        "parameters-controle-vanaf": "_FR_De parameters worden gebruikt bij de controles van refertemaanden vanaf ",
+        "parameters-controle-tem": "_FR_tem",
+        "save-button": "Sauvegarder",
+        "algemeen": {
+          "title": "Général",
+          "kaart-kleur": "Couleur de la carte",
+          "kwartaal-van": "Trimestre du",
+          "kwartaal-tot": "Trimestre au",
+          "max-aantal-jaren-terug": "Nombre max. d'années en arrière",
+          "startDatum": "Startdatum voor uitgifte"
+        },
+        "beperkingcodes": {
+          "title": "Limitation des codes",
+          "beperkingLooncodes": "Limitation des codes de rémunération",
+          "beperkingWerknemerCodes": "Limitation codes travailleurs",
+          "beperkingWerkgeversKengetallen": "Limitation des indices employeur"
+        },
+        "dagtypeslk": {
+          "title": "Types journalier CL",
+          "dagtype": "Type journalier",
+          "bron": "Source",
+          "prestatiecodes": "Codes prestation",
+          "comma-separated-lijst": "Comma-separated liste mentionnant tous les  indices employeur autorisés p.e. : 001,002,..."
+        },
+        "dagtypeslkoa": {
+          "title": "Types journalier CLD"
+        },
+        "tbd": {
+          "title": "JAP",
+          "leeftijdOndergrens": "Limite d'âge inférieure",
+          "leeftijdBovengrens": "Limite d'âge supérieure",
+          "aantalDagen": "Nombre de jours",
+          "add": "Add",
+          "voorgaandeKaarten": "Cartes de légitimation ayant-droit précédentes"
+        },
+        "tbdversoepeling": {
+          "title": "JAP assouplisssement"
+        },
+        "soortkredietdagen": {
+          "title": "Type de jours de crédit",
+          "kredietdagen": "Jours de crédit",
+          "kredietdagenZelfstandigen": "Jours de crédit pour indépendants",
+          "rhNormaal": "Ayant droit normal",
+          "rhGelijkstelling": "Ayant droit assimilation",
+          "rhEco": "Ayant dorit eco",
+          "nietRh": "Non ayant droit"
+        },
+        "maximumdagen": {
+          "title": "Nombre maximum de jours",
+          "maximumTotaalDagen": "Nombre maximum de jours",
+          "maximumRustdagen": "Nombre maximum de jours de repos",
+          "maximumVakantieDagen": "Nombre maximum de jours de congé",
+          "maximumVorstDagen": "Nombre maximum de jours de gel",
+          "maximumDagenPerKwartaal": "Nombre maximum de jours par trimestre",
+          "jan": "Janvier",
+          "feb": "Février",
+          "mar": "Mars",
+          "apr": "Avril",
+          "mei": "Mai",
+          "jun": "Juin",
+          "jul": "Juillet",
+          "aug": "Août",
+          "sep": "Septembre",
+          "okt": "Octobre",
+          "nov": "Novembre",
+          "dec": "Décembre",
+          "q1": "T1",
+          "q2": "T2",
+          "q3": "T3",
+          "q4": "T4"
+        }
+      },
+      "configuratie-legitimatiekaart": {
+        "title": "_FR_Legitimatiekaart Configuratie Parameters",
+        "defaultjaarlegitimatiekaart": "_FR_Default jaar legitimatiekaart",
+        "opslaan": "_FR_Opslaan",
+        "met-succes-opgeslagen": "_FR_De legitimatiekaart configuratie parameter werdt succesvol opgeslagen.",
+        "parameters-error": "_FR_Er is een fout opgetreden bij het opslaan van de legitimatiekaart configuratie parameter.",
+        "fout-bij-ophalen-parameters": "_FR_Er is een fout opgetreden bij het ophalen van de legitimatiekaart configuratie parameters."
+      },
+      "sociaalvoordeel": {
+        "title": "Avantage Social",
+        "save-button": "_FR_Parameters Opslaan",
+        "algemeen": {
+          "title": "Général",
+          "datumuitbetalingvanaf": "Date paiement à partir du",
+          "attestkleur": "Couleur attestation",
+          "attestkleuren": {
+            "blauw": "Bleu",
+            "groen": "Vert",
+            "rood": "Rouge",
+            "geel": "_FR_geel"
+          }
+        },
+        "beperkingcodes": {
+          "title": "Limitation des codes",
+          "beperkingLooncodes": "Limitation des codes de rémunération",
+          "beperkingWerknemerCodes": "Limitation codes travailleurs",
+          "beperkingWerkgeversKengetallen": "Limitation des indices employeur"
+        },
+        "referte-periode": {
+          "title": "Période de référence",
+          "refertekwartaalvan": "Trimestre du",
+          "refertekwartaaltot": "Trimestre à"
+        },
+        "prestatie-codes": {
+          "title": "Codes prestations",
+          "gewerktedagen": "Codes prestations jours prestés",
+          "vakantiedagen": "Codes prestations jours de congé",
+          "betaaldeducatiefverlof": "Codes prestations jours congé éducatif",
+          "rustdagen": "Codes prestations jours de repos",
+          "syndicalevorming": "Codes prestations jours formation syndiclae",
+          "weerverlet": "Codes prestations jours intempérie",
+          "anderetijdelijkewerkloosheid": "Codes prestations jours autre chômage temporaire"
+        },
+        "max-aantal-dagen": {
+          "title": "Nombre maximum de jours",
+          "maxaantalgewerktedagen": "Nombre maximum de jours prestés ",
+          "maxaantalvakantiedagen": "Nombre maximum de jours de congé",
+          "maxaantaldagenbetaaldeducatiefverlof": "Nombre maximum de jours de congé éducatif",
+          "maxaantalrustdagen": "Nombre maximum de jours de repos",
+          "maxaantalsyndicalevorming": "Nombre maximum de jours de formation syndicale",
+          "maxaantalweerverlet": "Nombre maximum de jours intempérie",
+          "maxaantaldagenanderetijdelijkewerkloosheid": "Nombre maximum de jours autre chômage temporaire"
+        },
+        "bedragen": {
+          "title": "Montants",
+          "maxbedrag": "Montant maximum",
+          "dagbedrag": "Montant journalier",
+          "minbedrag": "Montant minimum"
+        },
+        "parameters-notsaved": "(Non sauvé)"
+      },
+      "sociaalvoordeel-printing": {
+        "title": "Paramètres Avantage Social Voordeel Imprimer",
+        "printpartners": "_FR_Printpartners",
+        "save-button": "_FR_Parameters Opslaan"
+      },
+      "werkloosheid": {
+        "title": "Paramètres chômage",
+        "parameters-controle-vanaf": "Les paramètres sont utilisés pendant le contrôle des mois de référence à partir de",
+        "parameters-controle-tem": "à",
+        "save-button": "Sauvegarder les paramètres",
+        "vorstdagen": {
+          "title": "Jours de gel",
+          "table-title": "jours de gel possible (dans un régime de 6 jours par semaine)",
+          "save": "Sauvegarder",
+          "edit": "Editer",
+          "vorstzone": "zone de gel",
+          "opgelet": "Attention, si un champ 'jour de gel' n'est pas rempli il n'y a pas de simulation pour cette année.",
+          "input-placeholder": "à remplir"
+        },
+        "winteropleiding": {
+          "title": "Formation hivernale"
+        },
+        "dagvergoedingen": {
+          "title": "Indemnités journalières",
+          "barema": "Barème",
+          "bedrag-in-euro": "montant en € avec deux décimales après la virgule"
+        }
+      },
+      "medisch-plan": {
+        "title": "_FR_Medisch Plan Globale Parameters",
+        "opting-out-bedrijven": "_FR_Opting-Out Bedrijven",
+        "vul-hier-kbonummers-in": "_FR_Vul hier de opting-out kbonummers in gescheiden met een komma (bv: 0887120626, 0428718521)",
+        "kbonummers": "_FR_Kbonummers"
+      },
+      "hospi": {
+        "title": "Paramètres hospi",
+        "premies": "Primes",
+        "premie-volwassene": "Prime adulte",
+        "premie-kind": "Prime enfant"
+      },
+      "common": {
+        "parameters-refertejaar": {
+          "kopieer-naar": "Copier vers",
+          "genereer-voor": "_FR_Genereer voor",
+          "toast": {
+            "parameters-refertejaar-aangepast": "_FR_Nieuwe parameters voor {0} zijn gegenereerd",
+            "kan-niet-genereren": "_FR_Kan parameters niet genereren omdat ze al bestaan"
+          }
+        },
+        "toast": {
+          "parameters-zonder-jaar-opgeslaan": "_FR_Parameters succesvol opgeslaan.",
+          "parameters-opgeslaan": "_FR_Parameters voor refertejaar {0} succesvol opgeslaan.",
+          "parameters-error": "_FR_Fout bij het opslaan van de parameters."
+        },
+        "buttons": {
+          "save-parameters": "_FR_Parameters opslaan",
+          "cancel": "_FR_Annuleer"
+        },
+        "fout-ophalen-parameters": "_FR_Er is een fout gebeurt bij het ophalen van de parameters"
+      }
+    }
+  },
+  "legitimatiekaart-zoeken": {
+    "titel": "Rechercher cartes de légitimation",
+    "tabel": {
+      "headers": {
+        "nummer": "#",
+        "refertejaar": "Année de référence",
+        "naam": "Nom",
+        "voornaam": "Prénom",
+        "lk-nummer": "N° carte de légitimation",
+        "pensioennr": "N° de pension"
+      },
+      "input-fields": {
+        "refertejaar": "Chercher sur année de référence",
+        "naam": "Checher sur nom",
+        "voornaam": "Chercher sur prénom",
+        "lk-nummer": "Chercher sur n° de carte de légitimation",
+        "pensioennr": "Chercher sur n° de pension"
+      },
+      "results": {
+        "details": {
+          "soort-kaart": "Type",
+          "geschrapt": "Radié",
+          "totaal-aantal-dagen": "Total nombre de jours",
+          "kredietdagen": "Jours de crédit",
+          "adres": "Adresse",
+          "dag": "j",
+          "onbekend": "Inconnu"
+        },
+        "no-lk-found": "Pas de carte de légitimation trouvée"
+      }
+    }
+  },
+  "bedrijf-zoeken": {
+    "titel": "_FR_Bedrijf opzoeken",
+    "bedrijf-tabel": {
+      "header": {
+        "nummer": "#",
+        "kbNummer": "_FR_KBO nummer",
+        "rszNummer": "Numéro ONSS",
+        "naam": "Nom",
+        "straat": "Rue",
+        "postcode": "Code postal",
+        "gemeente": "_FR_Gemeente",
+        "land": "Pays"
+      },
+      "input-fields": {
+        "kbo-nummer": "Rechercher par numéro BCE",
+        "rsz-nummer": "Rechercer par numéro ONSS",
+        "naam": "Rechercher par nom",
+        "straat": "Rechercer par rue",
+        "postcode": "Rechercer par code postal",
+        "gemeente": "Localité",
+        "land": "Rechercher par pays"
+      },
+      "results": {
+        "no-bedrijf-found": "Aucune entreprise n'a été trouvée",
+        "onbekend-adres": "Adresse inconnue"
+      },
+      "tooltips": {
+        "land-tooltip": "Ce champ de recherche accepte uniquement les codes INS. Cliquez ici pour la vue d'ensemble de tous les codes INS."
+      }
+    },
+    "bezochte-bedrijven": {
+      "titel": "_FR_Laatst opgezochte bedrijven"
+    }
+  },
+  "uitgifte": {
+    "overzicht": "Aperçu",
+    "common": {
+      "jaar": "_FR_Jaar",
+      "totaal": "_FR_Totaal"
+    },
+    "printing": {
+      "services": {
+        "Extern": "Partenaire externe",
+        "Acto": "Partenaire externe",
+        "acto": "_FR_Acto",
+        "Local": "Local",
+        "local": "_FR_Lokaal"
+      },
+      "fout-tijdens-printen": "_FR_Er is een fout gebeurt tijdens het printen",
+      "print-map-bestaat-al": "_FR_Er is al een afdruk van alle bestanden gemaakt. Kijk na of dat al de pdf's in de map zijn afgedrukt en verwijder vervolgens de map voordat u doorgaat."
+    },
+    "status": {
+      "simulatie": "Simulation",
+      "inuitvoering": "En exécution",
+      "testrun": "Testrun"
+    },
+    "acties": {
+      "startTestRun": "Lancer nouveau testrun",
+      "startUitgifte": "Lancer émission",
+      "uitgifte": "Emission"
+    },
+    "legitimatiekaart": {
+      "printing": {
+        "title": "Impression",
+        "documenten-klaar-voor-printing": "{{documentCount}} documents avec une date de creation entre {{min}} et {{max}} sont prêts à l'impression.",
+        "print": "Imprimer",
+        "geen-documenten": "Pas de documents à imprimer",
+        "documenten": "Cartes de légitimation",
+        "printjob-started": "La tâche d'impression à été lancée",
+        "printjob-error": "La tâche d'impression s'est terminée en erreur",
+        "printjob-success": "La tâche d'impression s'est terminée avec succès"
+      },
+      "overzicht": {
+        "totaalAantalTestrun": "Nombre total des cartes émises et supprimées par année de référence",
+        "laatsteUitgifte": "Dernière émission",
+        "tabel": {
+          "jaar": "Année",
+          "rh": "AD",
+          "rhZelfstandig": "AD Indépendant",
+          "rhEco": "AD ECO",
+          "nrh": "NAD",
+          "geschrapt": "Supprimée",
+          "geschrapt-toekomstig": "Sera supprimée",
+          "laatste": "Dernière",
+          "wordtGeschrapt": "Est supprimée"
+        }
+      },
+      "tooltips": {
+        "testrun": "Testrun",
+        "laatsteUitgifte": "Dernière émission",
+        "printen": "Lors d’une impression externe, toutes les cartes sont regroupées dans des pdf’s, lequels seront transmis à notre partenaire d’impression externe.  Lors d’une impression local, les cartes sont regroupées dans des pdf’s, lesquels seront imprimés chez Constructiv.",
+        "aankomdendeBulkSimulatie": "_FR_Er staat een aankomende bulk simulatie gepland, als gevolg van het opslaan van de legitimatiekaart parameters. {0} simulaties zullen uitgevoerd worden."
+      }
+    },
+    "medisch-plan": {
+      "overzicht-tab": "Flux de travail",
+      "overzicht-uitgifte-tab": "Aperçu des émissions",
+      "overzicht-tabel": {
+        "header": {
+          "kwartaal": "Trimestre",
+          "rh": "Ayant-droit",
+          "nrh": "Non ayant-droit",
+          "aansluiting": "Affiliation",
+          "afsluiting": "Clôture",
+          "verderzetting": "Continuation",
+          "geen-actie": "Pas d'action",
+          "waarschuwing": "Avertissement"
+        },
+        "simulatie": "Simulation",
+        "testrun": "Testrun",
+        "uitgifte": "Emission",
+        "button": {
+          "start-testrun": "Démarrer le Testrun",
+          "algemene-testrun": "Général",
+          "aansluitingen-testrun": "Affiliations",
+          "start-uitgifte": "Démarrer l'émission",
+          "algemene-uitgifte": "Général",
+          "aansluitingen-uitgifte": "Affiliations"
+        }
+      },
+      "uitgifte-overzicht": {
+        "titel": "Nombre total des plan médicaux par trimestre.",
+        "geen-uitgiftes": "Aucune émission trouvée.",
+        "confirmation-dialog-uitgifte": "Le démarrage d'une émission pour le Plan Médical augmentera le trimestre à calculer."
+      },
+      "geen-data-beschikbaar": "Impossible de collecter des données pour l'instant.",
+      "workflowstap-gestart": "Il y a une simulation, testrun ou émission qui a commencé, ou qui a été mis dans la file d'attente.",
+      "toast": {
+        "testrun-gestart": "Testrun commencé.",
+        "testrun-kon-niet-gestart": "Le testrun ne pouvait pas être démarré.",
+        "testrun-aansluitingen-gestart": "Le Testrun pour les affiliations a commencé.",
+        "testrun-aansluitingen-kon-niet-gestart": "Le testrun pour les affiliations ne pouvait pas être démarré.",
+        "uitgifte-gestart": "Emission commencé.",
+        "uitgifte-kon-niet-gestart": "L'émission ne pouvait pas être démarré.",
+        "uitgifte-aansluitingen-gestart": "Emission pour les affiliation a commencé.",
+        "uitgifte-aansluitingen-kon-niet-gestart": "L'émission pour les affiliations ne pouvait pas être démarré.",
+        "printing-gestart": "L'imprimer a commencé.",
+        "printing-kon-niet-gestart": "L'impression ne pouvait pas commencer.",
+        "printing-success": "Impression job a fini."
+      },
+      "printing": {
+        "title": "Imprimer",
+        "documenten-klaar-voor-printing": "{{documentCount}} documents avec une date de création entre le {{min}} et le {{max}} sont prêts à être imprimés.",
+        "geen-documenten": "Aucun document à imprimer.",
+        "print": "Imprimer",
+        "tabel": {
+          "header": {
+            "kwartaal": "Trimestre",
+            "aantal-documenten": "Nombre de documents",
+            "aantal-aansluitingsbrieven": "Affiliation",
+            "aantal-waarschuwingsbrieven": "Avertissement",
+            "aantal-pensioenbrieven": "Pension"
+          }
+        }
+      }
+    },
+    "werkloosheid": {
+      "titel": "Chômage",
+      "c10-maand": "Mois C10",
+      "overzicht-tabel": {
+        "header": {
+          "laatst-bijgewerkt": "Dernière mise à jour",
+          "ui": "OP",
+          "c10maand": "Mois C10",
+          "bestandsnaam": "Nom de fichier",
+          "ingelezen-op": "Lu le",
+          "totaalbedrag": "Montant total (en €)",
+          "aantal-uitkeringen": "Nombre d'allocations",
+          "status": "Statut"
+        },
+        "bestand-overzicht": {
+          "status-0": "En attente",
+          "status-1": "Simulation planifiée",
+          "status-2": "Simulé",
+          "status-3": "TestRun planifié",
+          "status-4": "TestRun",
+          "status-5": "Emission planifiée",
+          "status-6": "Emis",
+          "uitgifteknop-TestRun": "Start TestRun",
+          "uitgifteknop-Uitgifte": "Start émission"
+        },
+        "bestand-documenten": {
+          "statusinfo-0": "Paramètres manquants: après avoir rempli les paramètres nécessaires le fichier sera simulé",
+          "statusinfo-1": "Paramètres 'jours de gel' manquants: après avoir rempli les paramètres 'jours de gel' nécessaires le fichier sera simulé",
+          "statusinfo-5": "Il y a pour le même OP un fichier 'chômage' précédent en cours de traitement. Après le traitement du mois C10 précédent le fichier en attente sera simulé.",
+          "statusinfo-6": "Il y a pour le même OP un fichier 'chômage' précédent en cours de traitement. Après le traitement du mois C10 précédent le fichier en attente sera simulé.",
+          "voorbeeld-feedback-document": "Exemple document de feedback",
+          "geen-feedback-document": "Aucun document de feedback trouvé",
+          "voorbeeld-boekhoud-document": "Exemple document comptable",
+          "geen-boekhoud-document": "Aucun document comptable trouvé",
+          "geen-vergoedingen-overzicht": "Aucun aperçu indemnités administratives trouvé",
+          "tooltips": {
+            "feedback-document": "Document de feedback",
+            "boekhoud-document": "Document comptable",
+            "administratieve-vergoedingen": "Indemnités administratives"
+          }
+        },
+        "geen-gegevens": "Aucune données touvrée pour les mois C10 sélectionné"
+      }
+    },
+    "sociaalvoordeel": {
+      "titel": "_FR_Uitgifte sociaal voordeel",
+      "simulatie": {
+        "titel": "_FR_Simulatie",
+        "geen-data": "_FR_Er is geen simulatie beschikbaar.",
+        "simulatie-lopend": "_FR_Simulatie lopend",
+        "simulatie-voltooid": "_FR_Simulatie voltooid"
+      },
+      "testrun": {
+        "titel": "_FR_TestRun",
+        "geen-data": "_FR_Er is geen testrun beschikbaar.",
+        "start-testrun": "_FR_Start Testrun",
+        "start-uitgifte": "_FR_Start Uitgifte",
+        "start-testrun-succes": "_FR_Testrun is succesvol gestart",
+        "start-testrun-error": "_FR_Er is iets fout gelopen bij het starten van de TestRun."
+      },
+      "uitgifte": {
+        "titel": "_FR_Uitgifte",
+        "geen-data": "_FR_Er is geen uitgifte beschikbaar.",
+        "tot-en-met": "_FR_Tot en met {{jaar}}",
+        "start-uitgifte-succes": "_FR_Testrun is succesvol gestart",
+        "start-uitgifte-error": "_FR_Er is iets fout gelopen bij het starten van de TestRun."
+      },
+      "printing": {
+        "titel": "_FR_Printing",
+        "geen-data": "_FR_Er kunnen geen documenten afgedrukt worden.",
+        "documenten": "_FR_Documenten",
+        "documenten-klaar-voor-printing": "_FR_{{documentCount}} documenten met een creatiedatum tussen {{min}} en {{max}} staan klaar om afgedrukt te worden.",
+        "start-printing": "_FR_Start Printing"
+      },
+      "aantal-uitkeren": "_FR_# Uitkeren",
+      "bedrag-uitkeren": "_FR_Bedrag Uitkeren",
+      "aantal-niet-uitkeren": "_FR_# Niet uitkeren",
+      "bedrag-niet-uitkeren": "_FR_Bedrag niet uitkeren",
+      "attesten-datum": "_FR_Datum",
+      "failed-jobs": {
+        "title": "_FR_Failed jobs",
+        "id": "_FR_Id",
+        "naam": "_FR_Naam"
+      },
+      "tooltips": {
+        "testrun-running": "_FR_kan niet gestart worden als er een Sociaal Voordeel TestRun bezig is .",
+        "uitgifte-running": "_FR_kan niet gestart worden als er een Sociaal Voordeel uitgifte bezig is.",
+        "geen-uit-te-keren-attesten": "_FR_kan niet gestart worden als er er geen uit te keren Sociaal Voordeel simulaties zijn.",
+        "geen-testrun-summary": "_FR_kan niet gestart worden als er er geen uit te keren Sociaal Voordeel testruns zijn.",
+        "is-printing": "_kan niet gestart worden als er een printjob bezig is.",
+        "print-button-pressed": " _kan niet nog eens gestart worden als er al op de knop geklikt is geweest.",
+        "geen-documenten": "_kan niet gestart worden als er er geen te printen documenten zijn."
+      }
+    },
+    "terugvordering": {
+      "tawv": {
+        "tawv": "_FR_TAWV",
+        "overzicht": {
+          "uitgifte": "_FR_Uitgiftes overzicht",
+          "tabel": {
+            "jaar": "_FR_Jaar",
+            "aantal-bedrijven": "_FR_Aantal Bedrijven",
+            "totaal-bedrag": "_FR_Totaal bedrag (in €)"
+          },
+          "testRunStartedSuccess": "_FR_Er is een test run klaargezet voor TAWV.",
+          "testRunStartedError": "_FR_Er is iets misgelopen bij het klaarzetten van de test run.",
+          "uitgifteStartedSuccess": "_FR_Er is een uitgifte klaargezet voor TAWV.",
+          "uitgifteStartedError": "_FR_Er is iets misgelopen bij het klaarzetten van de uitgifte."
+        },
+        "tooltips": {
+          "testrun": "_FR_Alle simulaties die mogen uitgegeven worden, zullen worden vastgeklikt in een testrun. Indien er reeds een testrun is gemaakt zal deze overschreven worden.",
+          "uitgifte": "_FR_Alle kaarten binnen de testrun zullen worden uitgegeven."
+        }
+      }
+    }
+  },
+  "common": {
+    "euro": "€",
+    "boolean": {
+      "true": "Oui",
+      "false": "Non"
+    },
+    "validation": {
+      "input-errors": {
+        "reference-year-input": {
+          "invalid-max-year": "_FR_Maximum jaar ({0}) is bereikt",
+          "invalid-min-year": "_FR_Minimum jaar ({0}) is bereikt"
+        },
+        "syndical-organisation-input": {
+          "required": "_FR_Gelieve een syndicale organisatie te selecteren"
+        },
+        "regional-division-input": {
+          "required": "_FR_Gelieve een regionale divisie te selecteren"
+        },
+        "received-on-input": {
+          "required": "_FR_Gelieve een geldige datum in te geven (dd/MM/YYYY)",
+          "maxDay": "_FR_Gelieve een datum in te geven die niet in de toekomst ligt"
+        },
+        "assimilation-type-input": {
+          "required": "_FR_Gelieve een gelijkstellingstype te selecteren"
+        },
+        "credit-days-input": {
+          "required": "_FR_Gelieve het aantal kredietdagen te selecteren"
+        },
+        "company-number-input": {
+          "required": "_FR_Gelieve een geldige kbo nummer in te geven"
+        },
+        "useful-card-type-input": {
+          "required": "_FR_Gelieve een nuttige kaart type te selecteren"
+        },
+        "situation-type-input": {
+          "required": "_FR_Gelieve een situatie te selecteren"
+        },
+        "start-validity-date-input": {
+          "required": "_FR_Gelieve een begin datum te selecteren"
+        },
+        "performance-input": {
+          "tooltip": "_FR_Er zijn {0} dag(en) resterend. Het maximum totaal aantal dagen is {1}",
+          "required": "_FR_Aantal dagen zijn overschreden"
+        },
+        "insz-input": {
+          "required": "_FR_Gelieve een geldige INSZ-nummer in te geven"
+        }
+      }
+    },
+    "reusable-items": {
+      "persoon-zoeker": {
+        "titel": "IDENTITE DU DEMANDEUR",
+        "insz": "NISS",
+        "naam": "Nom",
+        "voornaam": "Prénom",
+        "adres": "Adresse",
+        "postcode": "Code postal",
+        "gemeente": "Commune",
+        "meer-dan-10-resultaten": "Résultats de recherche cachés",
+        "land": "Pays",
+        "taal": "Langue",
+        "talen": {
+          "Nl": "Néerlandais",
+          "Fr": "Français",
+          "De": "Allemand"
+        }
+      },
+      "historiek": {
+        "toon-historiek": "Ouvrir l'historique",
+        "verberg-historiek": "Fermer l'historique"
+      },
+      "geschrapt": {
+        "toon-geschrapt": "Montrez supprimés",
+        "verberg-geschrapt": "Cachez supprimer"
+      },
+      "bool": {
+        "true": "Oui",
+        "false": "Non"
+      },
+      "modal": {
+        "sluit": "Fermer",
+        "titel": "Confirmer",
+        "annuleer": "Annuler",
+        "bevestig": "Confirmer"
+      },
+      "datepicker": {
+        "sluit": "Fermer",
+        "vandaag": "Aujourd’hui",
+        "reset": "Effacer",
+        "van": "Du",
+        "tot": "Au",
+        "vanaf": "Depuis le",
+        "beindigd-op": "Terminé le",
+        "op": "Le",
+        "verplicht-veld": "Champ obligatoire",
+        "ongeldige-datum": "Date incorrecte",
+        "dd/MM/yyyy": "jj/mm/aaaa"
+      },
+      "verplicht-veld": "Champ obligatoire",
+      "minimum": "(Minimum {{value}})",
+      "maximum": "(Maximum {{value}})",
+      "adres": {
+        "sinds": "depuis le",
+        "adres_onbekend": "Adresse inconnue"
+      },
+      "afdruk-voorbeeld": {
+        "afdruk-voorbeeld": "Exemple d'impression"
+      }
+    },
+    "components": {
+      "graphviz": {
+        "download-png": "_FR_Download PNG"
+      },
+      "progressbar": {
+        "total": "_FR_Totaal",
+        "completed": "_FR_Compleet",
+        "failed": "_FR_Gefaald",
+        "processing": "_FR_Bezig"
+      },
+      "prestatie-label": {
+        "dag": "j",
+        "uur": "h"
+      },
+      "navbar": {
+        "titel": "CoBen",
+        "zoeken": "_Zoeken",
+        "aanvragen": {
+          "titel": "Demandes",
+          "legitimatiekaart-op-aanvraag": "Carte de légitimation sur demande",
+          "nieuwe-arbeider": "_FR_Nieuwe arbeider",
+          "gelijkstelling": "_FR_Gelijkstelling"
+        },
+        "uitgiftes": {
+          "titel": "Emission",
+          "sociaal-voordeel": "Avantage Social",
+          "werkloosheid": "Chômage",
+          "legitimatiekaart": "Carte de légitimation",
+          "medisch-plan": "Mockup Plan Médical",
+          "terugvordering": "_FR_Terugvordering",
+          "alternerend-leren": "FR_Alternerend leren"
+        },
+        "exports": {
+          "titel": "Exports",
+          "excelExports": "Excel",
+          "interUIExport": "InterUI"
+        },
+        "environment": {
+          "titel": "{{environment}}",
+          "version": "({{version}}) v2",
+          "release-notes": "Notes de version",
+          "environments": "Environnements",
+          "integration": "INT",
+          "test": "TST",
+          "production": "PRD"
+        },
+        "taken": {
+          "titel": "_FR_Taken",
+          "hospi": "_FR_Hospitalisatie",
+          "hospi-printing": "_FR_Hospitalisatie printing",
+          "terugvordering": {
+            "titel": "_FR_Terugvordering",
+            "tawv": {
+              "titel": "_FR_TAWV",
+              "types": {
+                "BriefTerugvordering": "_FR_Terugvorderingsbrieven kunnen afgedrukt worden voor {0}",
+                "BriefBetalingsHerinnering": "_FR_Betalingsherinningsbrieven kunnen afgedrukt worden voor {0}",
+                "BriefGerechtsdeurwaarder": "_FR_Brieven gerechtsdeurwaarder kunnen afgedrukt worden voor {0}",
+                "BriefJuridischeProcedure": "_FR_Brieven juridische procedure kunnen afgedrukt worden voor {0}",
+                "UnapprovedPayments": "_FR_Niet bevestigde betalingen voor dossiers in juridische procedure"
+              },
+              "no-tasks": "_FR_Er zijn momenteel geen openstaande werklijsten voor TAWV",
+              "beschrijving": "_FR_Beschrijving",
+              "hoeveelheid": "_FR_Hoeveelheid"
+            }
+          }
+        },
+        "upload": "Charger",
+        "admin": "_FR_Admin",
+        "profiel": "_FR_Profiel",
+        "finance": "Finance",
+        "finance-overview": "Paiements entrants",
+        "outbound-payments": "Paiements sortants"
+      },
+      "taken": {
+        "terugvordering": {
+          "printing-titel": "_FR_Printing overview",
+          "talen": "_FR_Talen",
+          "taal": {
+            "nederlands": "Néerlandais",
+            "frans": "Français",
+            "duits": "Allemand"
+          },
+          "printen": {
+            "lokaal": "_FR_Lokaal printen",
+            "extern": "_FR_Extern printen",
+            "printing-in-progress": "_FR_Bezig met printen",
+            "toast": {
+              "success": "_FR_Brieven zijn klaargezet om te printen",
+              "error": "_FR_Fout bij het klaarzetten van de brieven om te printen"
+            }
+          },
+          "post-datum": "_FR_Postdatum",
+          "bedrijfsnaam": "_FR_Naam",
+          "kboNummer": "_FR_Kbo nummer",
+          "bedrijfsTaal": "_FR_Taal",
+          "postcode": "_FR_Postcode",
+          "preview": "_FR_preview",
+          "terugvorderingsbrief": {
+            "paneel-titel": "_FR_TAWV Terugvorderingsbrieven"
+          },
+          "betalingsherinneringsbrief": {
+            "paneel-titel": "_FR_TAWV Betalingsherinneringsbrieven"
+          },
+          "gerechtsdeurwaarderbrief": {
+            "paneel-titel": "_FR_TAWV Gerechtsdeurwaarderbrieven",
+            "barcode": "_FR_Barcode"
+          },
+          "juridischeprocedurebrief": {
+            "paneel-titel": "_FR_TAWV Juridischeprocedurebrieven",
+            "advocaten": "_FR_Advocaten",
+            "buitenland": "_FR_Buitenland",
+            "niettoegekend": "_FR_Niet toegekend",
+            "error-advocaten": "_FR_Er is iets mis gelopen bij het ophalen van de advocaten",
+            "error-toegekendebedrijven": "_FR_Er is iets mis gelopen bij het ophalen van de aan een advocaat toegekende bedrijven",
+            "error-niettoegekendebedrijven": "_FR_Er is iets mis gelopen bij het ophalen van de niet aan een advocaat toegekende bedrijven",
+            "error-buitenlandsebedrijven": "_FR_Er is iets mis gelopen bij het ophalen van de buitenlandse bedrijven",
+            "resultaten": "_FR_resultaten",
+            "toont": "_FR_toont"
+          },
+          "betalingen": {
+            "paneel-titel": "_FR_TAWV Niet bevestigde betalingen voor dossiers in juridische procedure",
+            "bedrijfsnaam": "_FR_Naam",
+            "kboNummer": "_FR_Kbo nummer",
+            "dossier": "_FR_Dossier",
+            "bedrag": "_FR_Bedrag",
+            "datumStorting": "_FR_Datum storting",
+            "isBevestigd": "_FR_Bevestigd",
+            "error-unapprovedPayments": "_FR_Er is iets mis gelopen bij het ophalen van de nog niet bevestigde betalingen",
+            "bevestigd": "_FR_De betaling werd bevestigd",
+            "error-bevestig": "_FR_Er is iets mis gelopen bij het bevestigen van de betaling"
+          }
+        }
+      },
+      "historiek": {
+        "toon-historiek": "Ouvrir l'historique",
+        "verberg-historiek": "Fermer l'historique"
+      },
+      "month-range-picker": {
+        "van": "de",
+        "tot": "à",
+        "validation-messages": {
+          "begindatum-later-dan-einddatum": "_FR_De begindatum mag niet later zijn dan de einddatum.",
+          "geen-correcte-waarde-ingevuld": "_FR_Gelieve een correcte waarde in te vullen voor beide maanden."
+        }
+      },
+      "company": {
+        "google-maps": "Google Maps"
+      },
+      "adres": {
+        "onbekend-adres": "_FR_Adres onbekend"
+      },
+      "kwartaalfilter": {
+        "quickfilter": "Recherche rapide",
+        "filter": "Filtre",
+        "kwartaalselector": "Sélection de trimestre",
+        "van": "de",
+        "tot": "à",
+        "klik-om-filter-te-wijzigen": "(Cliquer pour modifier le filtre)",
+        "toon-kwartaaltotaal": "Montrer le total du trimestre",
+        "vorige-vier-kwartalen": "Quatre trimestres précédents",
+        "vorig-jaar": "Année précédente",
+        "alle-jaren": "Toutes les années"
+      },
+      "modals": {
+        "confirmation-dialog": {
+          "title": "Vous êtes sûre?",
+          "cancel": "Annuler",
+          "confirm": "OK"
+        }
+      }
+    },
+    "geschrapt": {
+      "toon-geschrapt": "Montrez supprimés",
+      "verberg-geschrapt": "Cachez supprimer"
+    },
+    "datums": {
+      "maanden": {
+        "oktober": "octobre",
+        "november": "novembre",
+        "december": "décembre",
+        "januari": "janvier",
+        "februari": "février",
+        "maart": "mars",
+        "april": "avril",
+        "mei": "mai",
+        "juni": "juin",
+        "juli": "juillet",
+        "augustus": "août",
+        "september": "septembre"
+      }
+    },
+    "buttons": {
+      "opslaan": "Sauvegarder",
+      "annuleren": "Annuler",
+      "bewerk": "Editer",
+      "sluiten": "Fermer"
+    },
+    "toast": {
+      "opslaan-gelukt": "Sauvegardé avec succès",
+      "opslaan-mislukt": "La sauvegarde n'a pas réussi"
+    },
+    "afdruk-voorbeeld": "Aperçu avant impression",
+    "prestaties": {
+      "prestatielabel": {
+        "dag": "j",
+        "uur": "h"
+      }
+    },
+    "unauthorized-message": "_FR_U beschikt niet over de juiste rechten om deze pagina te raadplegen.",
+    "homepage-button": "_FR_Terug naar homepage",
+    "login-message": "_FR_Sessie is ongeldig of verlopen.",
+    "login-button-title": "_FR_Login",
+    "errors": {
+      "occured": "_FR_Er is een fout opgetreden. Gelieve een administrator te contacteren.",
+      "load-policies": "_FR_Kan de rechten en permissies niet laden.",
+      "load-user-profile": "_FR_Kan het gebruikersprofiel niet laden.",
+      "load-coben-info": "_FR_Kan de CoBen systeeminformatie niet laden.",
+      "load-coben-features": "_FR_Kan de CoBen features niet correct laden.",
+      "load-user-session": "_FR_Kan de gebruikersessie niet correct laden.",
+      "load-tawv-taken": "_FR_Kan taken voor Tawv niet correct laden."
+    }
+  },
+  "persoon-zoeken": {
+    "titel": "une personne",
+    "zoek-legitimatiekaarten": "carte de légitimation",
+    "persoon-tabel": {
+      "header": {
+        "nummer": "#",
+        "insz": "NISS",
+        "achternaam": "Nom",
+        "voornaam": "Prénom",
+        "straat": "Rue",
+        "huisnummer": "N° de maison",
+        "postcode": "Code postal"
+      },
+      "input-fields": {
+        "achternaam": "Chercher sur nom",
+        "voornaam": "Chercher sur prénom",
+        "straat": "Chercher sur rue",
+        "huisnummer": "Chercher sur n° de maison",
+        "postcode": "Chercher sur code postal"
+      },
+      "results": {
+        "no-persons-found": "Cette personne est inconnue dans le secteur"
+      }
+    },
+    "bezochte-personen": {
+      "titel": "Dernières personnes recherchées"
+    }
+  },
+  "excel-exports": {
+    "titel": "Excel > exports",
+    "file-share": "Tous les exports Excel sont également disponibles sur le share suivant",
+    "geen-excels-beschikbaar": "Il n'y a pas d'exports Excel disponibles",
+    "voordelen": {
+      "legitimatiekaart": "Carte de légitimation",
+      "legitimatiekaartopaanvraag": "Carte de légitimation sur demande",
+      "sociaalvoordeelattest": "_FR_Sociaal Voordeel attesten",
+      "sociaalvoordeelbetalingen": "_FR_Sociaal Voordeel betalingen",
+      "werkloosheidc10maand": "Mois C10 chômage",
+      "werkloosheidmaand": "Mois de chômage",
+      "medischplan": "_FR_Medisch plan",
+      "hospi": "_FR_Hospitalisatie",
+      "tawv": "_FR_Tawv"
+    }
+  },
+  "interui-export": {
+    "titel": "_FR_Exports > InterUI",
+    "file-share-interui": "_FR_De export naar InterUI zal op volgende locatie worden opgeslaan: ",
+    "file-share-crossdb": "_FR_De export naar CrossDB zal op volgende locatie worden opgeslaan: ",
+    "exportnaarinterui": "_FR_Overzicht export sinds laatste verzending: ",
+    "uitgegevenkaartensindslaasteverzending": "_FR_Uitgegeven kaarten",
+    "geschraptekaartensindslaatsteverzending": "_FR_Geschrapte kaarten",
+    "uitgegevenfictievekaartensindslaatsteverzending": "_FR_Uitgegeven Fictieve kaarten",
+    "geschraptekaartenzonderticketnummersindslaatsteverzending": "_FR_Geschrapte kaarten zonder ticket nummer",
+    "teintegrerenkaartenksz": "_FR_Te integreren kaarten",
+    "verstuurnaarinterui": "_FR_Verstuur",
+    "hangfireJobAangemaakt": "_FR_Voor de export naar interUI en CrossDB werd volgende hangfire job in de wachtrij gezet: ",
+    "metSuccesVerzondenPart2": "_FR_Dit kan enkele minuten duren.",
+    "evenWachten": "_FR_Export naar InterUI en CrossDB",
+    "exportnaarbeideplaatsen": "_FR_Volgende kaarten worden naar InterUI en CrossDB verstuurd:",
+    "exportnaarcrossdb": "_FR_Volgende kaarten worden uitsluitend naar CrossDB verstuurd:",
+    "integratieksz": "_FR_Volgende kaarten dienen nog geïntegreerd te worden bij KSZ:",
+    "geenGegevensGevonden": "_FR_Er werden geen gegevens gevonden.",
+    "geenfoutmeldingengevonden": "_FR_Er werden geen foutmeldingen gevonden",
+    "kanDataNietLaden": "_FR_Data kan niet geladen worden",
+    "geenLaatsteVerzending": "_FR_Er werd geen datum van laatste verzending naar InterUI of CrossDB teruggevonden.",
+    "verstuurnaarinteruitooltip": "_FR_De export XML's worden via een hangfire job op een file share geplaatst. Ofwel slagen de exports van alle  XML's, ofwel geen enkele.",
+    "interuiFoutmeldingenTooltip": "_FR_Volgende lijst bevat alle fouten die teruggezonden zijn door InterUI.",
+    "teIntegrerenKaartenTooltip": "_FR_Volgende lijst bevat kaarten die nog geïntegreerd dienen te worden bij KSZ",
+    "interuiFoutMeldingen": "_FR_Foutmeldingen",
+    "heeftOnverwerkteImport1": "_Er kan niet verstuurd worden omdat er nog voor ",
+    "heeftOnverwerkteImport2": " kaart(en) een antwoordbestand verwerkt moet worden.",
+    "integreerknop": "_FR_Integreer",
+    "teIntegrerenKaartenDownloadenKnop": "_FR_Download",
+    "overzichtintegratieksz": "_FR_Overzicht te integreren kaarten",
+    "integratiekszkaartensuccess": "_FR_De kaarten zijn succesvol geïntegreerd",
+    "integratiekszkaartenerror": "_FR_Er is iets misgelopen bij het integreren van de kaarten",
+    "foutmeldingen-table": {
+      "toont": "_FR_Toont",
+      "resultaten": "_FR_resultaten",
+      "headers": {
+        "tijdstip": "_FR_Tijdstip",
+        "fout": "_FR_Fout",
+        "insznummer": "_FR_INSZ Nummer",
+        "legitimatiekaart": "_FR_Legitimatiekaart",
+        "ticketnummer": "_FR_Ticketnummer",
+        "schrappingticketnummer": "_FR_Schrapping Ticketnummer"
+      },
+      "verwerk": "_FR_Verwerkt",
+      "anomalie-verwerkt": "FR_Anomalie {0} voor kaart {1} succesvol verwerkt.",
+      "bevestig-verwerking": {
+        "bericht": "_FR_Bent u zeker dat deze foutmelding verwerkt is?",
+        "cancel": "_FR_Annuleer",
+        "confirm": "_FR_OK"
+      },
+      "anomalie-verwerk-fout": "_FR_Er is een fout opgetreden bij het verwerken van anomalie {0} voor kaart {1}."
+    }
+  },
+  "bedrijf": {
+    "leftnav": {
+      "algemeen": "_FR_Algemeen",
+      "tawv": "_FR_TAWV"
+    },
+    "algemeen": {
+      "algemene-informatie": "_FR_Algemene Informatie",
+      "officieel-adres": "_FR_Officieel adres",
+      "geen-adres": "_FR_Geen adres",
+      "rsz": "_FR_RSZ: ",
+      "kbo": "_FR_KBO: "
+    },
+    "tawv": {
+      "berekening": "_FR_Berekening",
+      "uitgifte": "_FR_Uitgifte",
+      "test-run": "_FR_TestRun",
+      "simulatie": "_FR_Simulatie",
+      "geen-data": "_FR_Er werd geen data gevonden",
+      "refertejaar": "_FR_Refertejaar",
+      "modeltype": "_FR_Status",
+      "dossier": {
+        "details": "_FR_Dossierdetails",
+        "stateTitle": "_FR_Status",
+        "letterStateTitle": "_FR_Briewisselingstatus",
+        "toDeposit": "_FR_Te storten",
+        "dossier-afsluiten": "_FR_Dossier Afsluiten",
+        "dossier-afgesloten-success": "_FR_Het dossier werd succesvol afgesloten.",
+        "dossier-afgesloten-error": "_FR_Er is een fout opgetreden bij het afsluiten van het dossier.",
+        "dossier-heropenen": "_FR_Dossier heropenen",
+        "dossier-heropenen-success": "_FR_Het dossier werd succesvol heropend.",
+        "dossier-heropenen-error": "_FR_Er is een fout opgetreden bij het heropenen van het dossier.",
+        "state": {
+          "SchuldNietGeregistreerd": "_FR_Schuld niet geregistreerd",
+          "WachtOpBetaling": "_FR_Wacht op betaling",
+          "Betaald": "_FR_Betaald",
+          "NietMeerOpgevolgd": "_FR_Niet meer opgevolgd"
+        },
+        "letterState": {
+          "TeVersturenTerugvorderingsBrief": "_FR_Terugvorderingsbrief kan verstuurd worden",
+          "VerstuurdTerugvorderingsBrief": "_FR_Terugvorderingsbrief werd verstuurd",
+          "TeVersturenBetalingsHerinneringsBrief": "_FR_Herinneringsbrief kan verstuurd worden",
+          "VerstuurdBetalingsHerinneringsBrief": "_FR_Herinneringsbrief werd verstuurd",
+          "TeVersturenGerechtsdeurwaarderBrief": "_FR_Brief gerechtsdeurwaarder kan verstuurd worden",
+          "VerstuurdGerechtsdeurwaarderBrief": "_FR_Brief gerechtsdeurwaarder werd verstuurd",
+          "TeVersturenJuridischeProcedureBrief": "_FR_Juridische procedure brief kan verstuurd worden",
+          "VerstuurdJuridischeProcedureBrief": "_FR_Juridische procedure brief werd verstuurd"
+        }
+      },
+      "berekening-table": {
+        "tijdelijke-werkloosheid": "_FR_Tijdelijke Werkloosheid",
+        "aanvullingen-werkloosheid": "_FR_Aanvullingen werkloosheid",
+        "toeslag-eco": "_FR_Toeslag ECO",
+        "te-betalen": "_FR_Te betalen",
+        "toeslag": "_FR_Toeslag",
+        "vergoeding-bouw": "_FR_Vergoedingen bouw",
+        "weerverlet-eco": "INT",
+        "eco": "ECO",
+        "dagbedrag": "_FR_dagbedrag",
+        "toeslag-eco-h": "15 EUR",
+        "toeslag-eco-i": "30 EUR",
+        "naam": "_FR_Naam",
+        "insz": "_FR_Insz",
+        "hoofdsom": "_FR_Hoofdsom",
+        "reeds-betaald": "_FR_Reeds betaald",
+        "extra-kosten": "_FR_Extra kosten"
+      },
+      "briefwisseling": {
+        "title": "_FR_Briefwisseling",
+        "preview": "_FR_Preview",
+        "error-refertejaar": "_FR_Er is iets mis gegaan bij het ophalen van het refertejaar",
+        "error-overzicht": "_FR_Er is iets mis gelopen bij het ophalen van het briefwisseling overzicht",
+        "error-preview": "_FR_ Er is iets mis gelopen bij het ophalen van de preview",
+        "error-preview-juridischeprocedure": "_Er kon geen advocaat gekoppeld worden aan het dossier of het bedrijf is gevestigd in het buitenland",
+        "error-terugvorderingsbrief": "_FR_ Er is iets mis gelopen bij het ophalen van de terugvorderingsbrief",
+        "briefwisseling-table": {
+          "brieven": "_FR_Brieven",
+          "brief": "_FR_Brief",
+          "status": "_FR_Status",
+          "datum": "_FR_Datum"
+        },
+        "bestanden-table": {
+          "bestanden": "_FR_Bestanden",
+          "bestand-naam": "_FR_Bestand naam",
+          "datum": "_FR_Datum",
+          "mail-verkeer-type": "_FR_Type mailverkeer",
+          "acties": "_FR_Acties",
+          "toevoegen": "_FR_Toevoegen",
+          "file-select": "_FR_Selecteer Bestand",
+          "mail-verkeer-types": {
+            "inkomend": "_FR_Binnenkomend",
+            "uitgaand": "_FR_Uitgaand"
+          },
+          "toast": {
+            "file-deleted-success": "_FR_Het bestand werd succesvol verwijderd.",
+            "file-deleted-error": "_FR_Het bestand kon niet worden verwijderd.",
+            "file-added-success": "_FR_Het bestand werd succesvol opgeladen.",
+            "file-added-error": "_FR_Het bestand kon niet worden opgeladen."
+          }
+        }
+      },
+      "brieven": {
+        "titel": "_FR_Brieven",
+        "geen-brieven": "_FR_Momenteel zijn er geen terugvorderingsbrieven om afgedrukt te worden"
+      },
+      "betalingen": {
+        "title": "_FR_Betalingen",
+        "error-dossier": "_FR_Kan de data niet ophalen",
+        "error-companyId-refertejaar": "_FR_Kan de CompanyId of het refertejaar niet ophalen",
+        "geen-data": "_FR_Nog geen schuld beschikbaar voor dit refertejaar"
+      },
+      "extrakosten": {
+        "tab": "_FR_Juridische procedure",
+        "advocaat": "_FR_Advocaat",
+        "title": "_FR_Extra kosten",
+        "bedrag": "_FR_Bedrag",
+        "datum": "_FR_Datum",
+        "acties": "_FR_Acties",
+        "extrakost": "_FR_Voeg nieuw type extra kost toe",
+        "extrakostadded": "_FR_De extra kost werd toegevoegd",
+        "extrakostedited": "Le coûts supplémentaires a été ajusté",
+        "extrakostdeleted": "_FR_De extra kost werd verwijderd",
+        "error-getextrakosten": "_FR_Er is iets mis gelopen bij het ophalen van de extra kosten",
+        "error-getextrakostendescriptions": "_FR_Er is iets mis gelopen bij het ophalen van de extra kosten descriptions",
+        "error-deleteextrakost": "_FR_Er is iets mis gelopen bij het verwijderen van de extra kost",
+        "error-addextrakost": "_FR_Er is iets mis gelopen bij het toevoegen van de extra kost",
+        "error-editextrakost": "Quelque chose s'est mal passé lors de l'ajustement des coûts supplémentaires",
+        "error-getadvocaat": "_FR_Er is iets mis gelopen bij het ophalen van de advocaat"
+      },
+      "memo": {
+        "title": "_FR_Memo",
+        "aanpassen": "_FR_Memo aanpassen",
+        "opslaan": "_FR_Memo opslaan",
+        "annuleren": "_FR_Annuleer",
+        "geen-data": "_FR_Er werd geen data gevonden",
+        "error-memo-ophalen": "_FR_Er is iets mis gelopen bij het ophalen van de memo",
+        "aangepast": "_FR_De memo werd aangepast.",
+        "aanpassen-error": "_FR_Er is een fout opgetreden."
+      }
+    }
+  },
+  "dossier": {
+    "tawv": {
+      "betwist": "_FR_Betwist",
+      "error-betwisting": "_FR_Er is iets mis gelopen bij het betwisten van het dossier"
+    }
+  },
+  "legitimatiekaart-op-aanvraag": {
+    "ingescande-documenten": "_FR_Ingescande documenten",
+    "lkopaanvraag": {
+      "formulier-titel-types": {
+        "nieuwe-arbeider-titel": "DEMANDE DE CARTE DE LEGITIMATION AYANT-DROIT  POUR LES NOUVEAUX OUVRIERS DE LA CONSTRUCTION ET POUR LES OUVRIERS QUI REPRENNENT LE TRAVAIL",
+        "gelijkstelling-titel": " DEMANDE DE CARTE DE LEGITIMATION PAR ASSIMILATION DE PRESTATIONS EN DEHORS DE LA CONSTRUCTION "
+      },
+      "meldingen": {
+        "foutmelding-titel": "Formulaire incomplet",
+        "foutmelding-beschrijving": "Les champs suivants sont à contrôler:",
+        "succesvol-bewaard": "Sauvegardée avec succès",
+        "geen-coben-parameters": "Pas de paramètres CoBen disponible",
+        "foutmelding-syndicale-organisaties": "_FR_Kan syndicale organisaties niet laden. Gelieve een administrator te contacteren.",
+        "foutmelding-document-types": "_FR_Kan types voor bijgevoegde documenten niet laden. Gelieve een administrator te contacteren.",
+        "foutmelding-persoon": "_FR_Kan persoonsgegevens voor synergyId niet laden. (SynergyId is niet gekend in het systeem).",
+        "foutmelding-dossiers": "_FR_Kan dossier voor persoon '{0}' niet laden. (Deze persoon heeft geen LKOA dossiers).",
+        "foutmelding-dossier": "_FR_Kan dossier voor persoon niet laden. Deze persoon heeft geen dossier met ID '{0}'.",
+        "foutmelding-dossier-opslaan": "_FR_Kan dossier voor persoon '{0}' niet opslaan."
+      },
+      "beheer": {
+        "titel": "Attest carte de légitimation sur demande"
+      },
+      "reden-weigering": {
+        "OngeldigInsz": "Le N° NISS est invalide",
+        "PersoonNietGekendInDeBouw": "La personne est inconnue dans le secteur construction",
+        "OngeldigKbo": "Le N° BCE est invalide",
+        "NietInDienstGekomen": "La personne n’est pas entrée en service à la date mentionnée.",
+        "HeeftReedsRhlkVoorAanvraagJaar": "La personne possède déjà une CL pour l’année demandée.",
+        "HeeftToekomstigeRhlkVoorAanvraagJaar": "Er is reeds een kaart in simulatie of testrun die zal uitgegeven worden.",
+        "HeeftGevalideerdLopendDossierVoorAanvraagJaar": "La personne possède un attest validé pour l’année demandée. "
+      },
+      "motief-weigering": {
+        "A1_01_HeeftReedsA1LegitimatiekaartVoorVoorgaandeJaar": "Possède déjà une CL A1 pour l’AR -1",
+        "A1_02_LeeftijdVereiste23": "Agé >23 à la date d’entrée en service",
+        "A1_03_BeginDatumSector": "Date début secteur pas entre 01/01/AR et 30/09/AR+1",
+        "A1_04_Heeft30DagenGewerktSindsBeginDatumSectorVereiste": "A1: <30 jours de travail depuis entrée en service dans le secteur",
+        "A1_05_TeBewijzenAantalDagenVereiste": "Moyenne de nombre de jours par mois pas atteint",
+        "A2_01_LeeftijdVereiste24": "Agé >24 le 31/12/AR",
+        "A2_02_HeeftReedsEenLegitimatiekaartDoorGelijkstellingVoorVoorgaandeJaarVereiste": "Pas de CL ASS AR-1",
+        "A2_03_TeBewijzenAantalDagenVereiste": "Moyenne de nombre de jours par mois pas atteint",
+        "A2_04_Heeft30DagenGewerktSindsBeginDatumSectorVereiste": "<30 jours de travail depuis la date début secteur”",
+        "D1_01_HeeftLkTypeD1VorigRefertejaar": "Carte de légitimation de type D1 pour l’année de référence précédente",
+        "D1_01_HeeftGewerkteDagenInVorigReferteJaar": "A des jours prestés dans l’AR-1",
+        "D1_02_TeBewijzenAantalDagenVereiste": "Nombre minimal de jours à prouver pas atteint",
+        "D1_03_HeeftPrestatiesVorigRefertejaar": "Jours prestés dans l’année de référence",
+        "D2_01_HeeftGeenD1GelijkstellingVoorVoorgaandeJaar": "Pas  D1 pour l’AR-1",
+        "D2_02_TeBewijzenAantalDagenVereiste": "Nombre moyen de jours par mois pas atteint",
+        "B_14_HeeftGeenAttestBeroepsOpleiding": "L’attestation de formation professionnelle manque",
+        "B_15_TeBewijzenAantalDagenvereiste": "Nombre moyen de jours par mois pas atteint",
+        "B_16_Heeft30DagenEffectiefGepresteerdSindsDatumInDienst": "< 30 jours e travail depuis la date début secteur",
+        "BPlus_17_HeeftGeenAttestBeroepsOpleiding": "Pas d’attestation formation professionnelle",
+        "BPlus_18_HeeftGeenRechthebbendeLegitimatiekaart": "Ne possède pas de CL AD AR-1",
+        "BPlus_19_TeBewijzenAantalDagenvereiste": "Nombre moyen de jours par mois pas atteint",
+        "DU_01_OntslagenZijnDoorBouwWerkgeverVereiste": "C4 employeur manque",
+        "DU_02_TeBewijzenAantalDagenVereiste": "Ne prouve pas le nombre minimum de jours requis",
+        "DU_03_TeBewijzenAantalDagenNaHerindiensttreding": "Ne prouve pas le nombre minimum de jours requis après reprise de travail",
+        "C_01_NietTewerkgesteldInAndereSectorInRefertejaarDoorBureauArbeidsbemiddeling": "vous n'étiez pas occupé dans un autre secteur par un bureau de l'Office d'emploi du VDAB, du FOREM, de l'ADG ou d'Actiris, pendant l'année de référence.",
+        "C_02_OnvoldoendeDagenBewezenInRefertejaar": "vous prouvez insuffisament de jours dans l'année de référence (prestés + assimilés).",
+        "C_03_OnvoldoendeGemiddeldAantalDagenNaIndienstInBouw": "vous prouvez insuffisament de jours en moyenne après votre reprise dan le secteur de la construction.",
+        "C_04_Geen30EffectiefGepresteerdeDagenNaInDienstInBouw": "vous ne prouvez pas 30 jours de travail effectif après votre reprise dans le secteur de la construction.",
+        "E_01_NietTewerkgesteldInOpenbaarBestuurInRefertejaarDoorBureauArbeidbemiddeling": "vous n'étiez pas occupé dans une administration publique, par un bureau de l'Office d'emploi du VDAB, du FOREM, de l'ADG ou d'Actiris, pendant l'année de référence.",
+        "E_02_GeenWerkHervattingInBouwInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail dans le secteur de la construction dans l'année de référence ou l'année d'àprès.",
+        "E_03_OnvoldoendeDagenBewezenInGeldigheidsperiodeVanAangevraagdeKaart": "vous prouvez insuffisament de  jours dans le secteur de la construction durant la période de validité de la carte demandée.",
+        "F_01_GeenBeeindigingIndividueleLeerovereenkomstInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas terminé avec fruit un contrat individuel d'apprentissage dans l'année de référence ou l'année d'après.",
+        "F_02_NietAangeworvenInBouwMetContractOnbepaaldeDuurNaLeerovereenkomst": "vous n'avez pas été engagé par un employeur du secteur de la construction avec un contrat de durée indéterminé après votre contrat d'apprentissage.",
+        "G_01_NietTewerkgesteldAlsInstructeurMonitorInRefertejaar": "vous n'étiez pas occupé en tant qu'instructeur/moniteur dans un centre de formation professionelle du VDAB, le FOREM, l'ADG ou Bruxelles-Formation, pendant l'année de référence.",
+        "G_02_GeenWerkhervattingInBouwInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail dans le secteur de la construction dans l'année de référence ou l'année d'àprès.",
+        "G_03_OnvoldoendeDagenBewezenInRefertejaarInBouwEnInstructeurMonitor": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours comme instructeur/moniteur).",
+        "G_04_OnvoldoendeGemiddeldAantalDagenNaInDienstInBouw": "vous prouvez insuffisament de jours en moyenne après votre reprise dans le secteur de la construction.",
+        "G_05_Geen30EffectiefGepresteerdeDagenNaInDienstInBouw": "vous ne prouvez pas 30 jours de travail effectif après votre reprise dans le secteur de la construction.",
+        "H_01_WerkInBouwNietVoltijdsHervatInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail à temps plein dans l'année de référence ou l'année d'après.",
+        "H_02_WerkInBouwNietDeeltijdsHervatInGeldigheidsperiodeAangevraagdeLkOfDaaropvolgendJaar": "vous n'avez pas repris le travail à temps partiel ddurant la période de validité de la carte demandée ou l'année d'après.",
+        "H_03_OnvoldoendeDagenBewezenInBouwEnArbeidsongeschikt": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours d'incapacité de travail).",
+        "H_04_PeriodeArbeidsongeschiktNietBegonnenOpMomentTewerkgesteldInBouw": "vous n'étiez pas occupé dans le secteur de la construction au moment ou la période d'incapacité de travail a débutée.",
+        "I_01_LoopbaanNietOnderbrokenInLoopVanRefertejaar": "vous n'avez pas intérrompu votre carrière dans le courant de l'année de référence.",
+        "I_02_OnvoldoendeDagenBewezenInRefertejaarInBouwEnLoopbaanonderbreking": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours d'intérruption de carrière).",
+        "I_03_LoopbaanonderbrekingNietBegonnenTijdensTewerkstellingInBouw": "vous n'étiez pas accupé dans le secteur de la construction lorsque l'intérruption de carrière a débutée.",
+        "I_04_ReedsMeerDan312DagenLoopbaanonderbrekingGelijkgesteldTijdensUwLoopbaan": "plus de 312 jours d'intérruption de carrière ont déjà été assimilés pendant votre carrière.",
+        "I_05_UitoefeningBijberoepInBouw": "vous exercez une activté à titre accesoire dans le secteur de la construction.",
+        "J_01_NietGewerktInBouwInLidstaatEuropeseUnieTijdensRefertejaar": "vous n'avez pas travaillé dans le secteur de la construction dans l'année de référence, dans un des états membre de l'Union Européenne.",
+        "J_02_OnvoldoendeDagenBewezenInRefertejaarInBouwBelgieEnBouwEuropeseUnie": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction en Belgique + jours dans le secteur de la construction dans l'UE)."
+      },
+      "print-oorzaken-weigering": {
+        "motief-weigering": {
+          "A1_01_HeeftReedsA1LegitimatiekaartVoorVoorgaandeJaar": "Une carte de légitimation “Ayant-droit” a déjà été octroyée pour l’année de référence demandée.",
+          "A1_02_LeeftijdVereiste23": "Vous aviez dépassé l’âge de 23 ans au moment de votre mise au travail dans le secteur de la construction.",
+          "A1_03_BeginDatumSector": "La date de votre mise au travail dans le secteur de la construction ne se situe pas entre le 1ier janvier de l’année de référence et le 30 septembre de l’année suivante.",
+          "A1_04_Heeft30DagenGewerktSindsBeginDatumSectorVereiste": "Vous avez presté moins de 30 jours effectifs après votre mise au travail dans le secteur de la construction.",
+          "A1_05_TeBewijzenAantalDagenVereiste": "Vous avez presté, en moyenne, moins de 16,7 jours par mois entre la date de votre mise au travail dans le secteur de la construction  et la date de fin de la validité de la carte de légitimation demandée (ou la date à laquelle la demande a été introduite, si elle se situe avant).",
+          "A2_01_LeeftijdVereiste24": "Vous avez dépassé l’âge de 24 ans au 31 décembre de l’année de référence.",
+          "A2_02_HeeftReedsEenLegitimatiekaartDoorGelijkstellingVoorVoorgaandeJaarVereiste": "Vous n’avez pas obtenu une carte de légitimation “Ayant-droit” par assimilation pour l’année qui précède l’année de référence.",
+          "A2_03_TeBewijzenAantalDagenVereiste": "Vous avez presté, en moyenne, moins de 16,7 jours entre le 1ier janvier de l’année qui suit l’année de référence (ou la date réelle de votre mise au travail dans le secteur de la construction, si elle se situe après) et le 30 septembre de l’année de référence + 2 (ou à la date à laquelle la demande a été introduite, si elle se situe avant).",
+          "A2_04_Heeft30DagenGewerktSindsBeginDatumSectorVereiste": "Vous avez presté moins de 30 jours effectifs entre le 1ier janvier de l’année de référence et la date d’introduction du attest.",
+          "D1_01_HeeftLkTypeD1VorigRefertejaar": "Vous avez déjà une Carte de légitimation de type D1 pour l’année de référence précédente",
+          "D1_01_HeeftGewerkteDagenInVorigReferteJaar": "Vous avez des jours prestés dans l’année de référence.",
+          "D1_02_TeBewijzenAantalDagenVereiste": "Vous n’avez pas presté 200 jours durant une période de 4 trimestres consécutifs, lesquels se situent entre le 1ier octobre de l’année de référence et le 30 septembre de l’année de référence + 2.",
+          "D1_03_HeeftPrestatiesVorigRefertejaar": "Vous avez des jours prestés dans l’année de référence",
+          "D2_01_HeeftGeenD1GelijkstellingVoorVoorgaandeJaar": "Vous n’avez pas obtenu une carte de légitimation “Ayant-droit” par assimilation de type D1 pour l’année qui précède l’année de référence.",
+          "D2_02_TeBewijzenAantalDagenVereiste": "Vous avez presté, en moyenne, moins de 16,7 jours entre la date de début de la validité de la carte de légitimation de l’année de référence précédente et la date de fin de la validité de la carte de légitimation demandée (ou la date à laquelle la demande a été introduite, si elle se situe avant).",
+          "B_14_HeeftGeenAttestBeroepsOpleiding": "Au cours de l’année de référence, ou de l’année suivante, vous n’avez pas suivi  une formation construction de base dans un centre de formation du VDAB, du FOREm, de Bruxelles-Formation ou de l’Arbeitsamt ou dans un centre agréé par ces services et par le Fonds de Formation Professionnelle de la Construction ou via une formation professionnelle individuelle dans une entreprise.",
+          "B_15_TeBewijzenAantalDagenvereiste": "Vous avez presté, en moyenne, moins de 16,7 jours entre le jour qui suit la fin de la formation professionnelle et le 30 septembre de l’année de référence + 2 (ou la date à laquelle la demande a été introduite, si elle se situe avant).",
+          "B_16_Heeft30DagenEffectiefGepresteerdSindsDatumInDienst": "Vous avez presté moins de 30 jours effectifs après votre mise au travail dans le secteur de la construction.",
+          "BPlus_17_HeeftGeenAttestBeroepsOpleiding": "Au cours de l’année de référence, ou de l’année suivante, vous n’avez pas suivi  une formation construction de base dans un centre de formation du VDAB, du FOREm, de Bruxelles-Formation ou de l’Arbeitsamt ou dans un centre agréé par ces services et par le Fonds de Formation Professionnelle de la Construction ou via une formation professionnelle individuelle dans une entreprise.",
+          "BPlus_18_HeeftGeenRechthebbendeLegitimatiekaart": "Vous n’avez pas obtenu une carte de légitimation “Ayant-droit” par assimilation pour l’année qui précède l’année de référence.",
+          "BPlus_19_TeBewijzenAantalDagenvereiste": "Tenant compte du total du nombre de jours prestés dans le secteur de la construction au cours de l’année de référence, ajouté au nombre de jours  de formation professionnelle dans la même année , vous n’arrivez pas à la moyenne de 16,7 jours par mois.",
+          "DU_01_OntslagenZijnDoorBouwWerkgeverVereiste": "Une preuve de licenciement par l’employeur de la construction chez qui vous étiez occupé avant l’interruption de l’occupation dans le secteur de la construction fait défaut.",
+          "DU_02_TeBewijzenAantalDagenVereiste": "Le total du nombre de jours prestés au cours de l’année de référence dans le secteur de la construction, ajouté soit au nombre de jours prestés dans un autre secteur au cours de la même année, soit au nombre de jours de chômage complet au cours de la même année, soit au nombre de jours d’activité indépendante au cours de la même année n’atteint pas la moyenne de 16,7 jours par mois.",
+          "DU_03_TeBewijzenAantalDagenNaHerindiensttreding": "Vous n’avez pas presté 200 jours depuis votre reprise de travail dans le secteur de la construction.",
+          "C_01_NietTewerkgesteldInAndereSectorInRefertejaarDoorBureauArbeidsbemiddeling": "u was in het refertejaar niet tewerkgesteld in een andere sector door een bureau voor arbeidsbemiddeling van de VDAB, de FOREM, de ADG of Actiris.",
+          "C_02_OnvoldoendeDagenBewezenInRefertejaar": "vous prouvez insuffisament de jours dans l'année de référence (prestés + assimilés).",
+          "C_03_OnvoldoendeGemiddeldAantalDagenNaIndienstInBouw": "vous prouvez insuffisament de jours en moyenne après votre reprise dan le secteur de la construction.",
+          "C_04_Geen30EffectiefGepresteerdeDagenNaInDienstInBouw": "vous ne prouvez pas 30 jours de travail effectif après votre reprise dans le secteur de la construction.",
+          "E_01_NietTewerkgesteldInOpenbaarBestuurInRefertejaarDoorBureauArbeidbemiddeling": "vous n'étiez pas occupé dans une administration publique, par un bureau de l'Office d'emploi du VDAB, du FOREM, de l'ADG ou d'Actiris, pendant l'année de référence.",
+          "E_02_GeenWerkHervattingInBouwInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail dans le secteur de la construction dans l'année de référence ou l'année d'àprès.",
+          "E_03_OnvoldoendeDagenBewezenInGeldigheidsperiodeVanAangevraagdeKaart": "vous prouvez insuffisament de  jours dans le secteur de la construction durant la période de validité de la carte demandée.",
+          "F_01_GeenBeeindigingIndividueleLeerovereenkomstInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas terminé avec fruit un contrat individuel d'apprentissage dans l'année de référence ou l'année d'après.",
+          "F_02_NietAangeworvenInBouwMetContractOnbepaaldeDuurNaLeerovereenkomst": "vous n'avez pas été engagé par un employeur du secteur de la construction avec un contrat de durée indéterminé après votre contrat d'apprentissage.",
+          "G_01_NietTewerkgesteldAlsInstructeurMonitorInRefertejaar": "vous n'étiez pas occupé en tant qu'instructeur/moniteur dans un centre de formation professionelle du VDAB, le FOREM, l'ADG ou Bruxelles-Formation, pendant l'année de référence.",
+          "G_02_GeenWerkhervattingInBouwInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail dans le secteur de la construction dans l'année de référence ou l'année d'àprès.",
+          "G_03_OnvoldoendeDagenBewezenInRefertejaarInBouwEnInstructeurMonitor": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours comme instructeur/moniteur).",
+          "G_04_OnvoldoendeGemiddeldAantalDagenNaInDienstInBouw": "ous prouvez insuffisament de jours en moyenne après votre reprise dans le secteur de la construction.",
+          "G_05_Geen30EffectiefGepresteerdeDagenNaInDienstInBouw": "vous ne prouvez pas 30 jours de travail effectif après votre reprise dans le secteur de la construction.",
+          "H_01_WerkInBouwNietVoltijdsHervatInRefertejaarOfDaaropvolgendJaar": "vous n'avez pas repris le travail à temps plein dans l'année de référence ou l'année d'après.",
+          "H_02_WerkInBouwNietDeeltijdsHervatInGeldigheidsperiodeAangevraagdeLkOfDaaropvolgendJaar": "vous n'avez pas repris le travail à temps partiel ddurant la période de validité de la carte demandée ou l'année d'après.",
+          "H_03_OnvoldoendeDagenBewezenInBouwEnArbeidsongeschikt": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours d'incapacité de travail).",
+          "H_04_PeriodeArbeidsongeschiktNietBegonnenOpMomentTewerkgesteldInBouw": "vous n'étiez pas occupé dans le secteur de la construction au moment ou la période d'incapacité de travail a débutée.",
+          "I_01_LoopbaanNietOnderbrokenInLoopVanRefertejaar": "vous n'avez pas intérrompu votre carrière dans le courant de l'année de référence.",
+          "I_02_OnvoldoendeDagenBewezenInRefertejaarInBouwEnLoopbaanonderbreking": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction + jours d'intérruption de carrière).",
+          "I_03_LoopbaanonderbrekingNietBegonnenTijdensTewerkstellingInBouw": "vous n'étiez pas accupé dans le secteur de la construction lorsque l'intérruption de carrière a débutée.",
+          "I_04_ReedsMeerDan312DagenLoopbaanonderbrekingGelijkgesteldTijdensUwLoopbaan": "lus de 312 jours d'intérruption de carrière ont déjà été assimilés pendant votre carrière.",
+          "I_05_UitoefeningBijberoepInBouw": "vous exercez une activté à titre accesoire dans le secteur de la construction.",
+          "J_01_NietGewerktInBouwInLidstaatEuropeseUnieTijdensRefertejaar": "vous n'avez pas travaillé dans le secteur de la construction dans l'année de référence, dans un des états membre de l'Union Européenne.",
+          "J_02_OnvoldoendeDagenBewezenInRefertejaarInBouwBelgieEnBouwEuropeseUnie": "vous prouvez insuffisament de jours dans l'année de référence (jours dans le secteur de la construction en Belgique + jours dans le secteur de la construction dans l'UE)."
+        }
+      },
+      "nuttigekaart-types": {
+        "NuttigeKaart": "Carte utile",
+        "FictieveKaart": "Carte fictive"
+      },
+      "common": {
+        "aanvraagmetadata": {
+          "legitimatiekaart-jaar": "CL Année",
+          "syndicale-organisatie": "Organisation syndicale",
+          "regionale-afdeling": "Régionale",
+          "syndicale-organisatie-types": {
+            "ACV": "CSC BIE",
+            "ACLVB": "CGSLB",
+            "Individueel": "Individuel",
+            "ABVV": "FGTB"
+          },
+          "ontvangen-op": "reçu le"
+        },
+        "arbeidsprestatiesattest": {
+          "5DagenWeek": "semaine - 5J",
+          "6DagenWeek": "semaine - 6J",
+          "titel": "ATTESTATION EN RELATION AVEC LES PRESTATIONS",
+          "werkgever": {
+            "titel": "_FR_Gegevens werkgever",
+            "kbonummer": "N° BCE",
+            "naam": "Nom employeur",
+            "niet-gevonden": " N° BCE non trouvé"
+          },
+          "werknemer": {
+            "titel": "Gegevens Werknemer"
+          },
+          "periode-in-dienst": {
+            "titel": "Déclare que l’ouvrier concerné est/était à son service"
+          },
+          "prestaties": {
+            "titel": "Données DMFA jours prestés/jours assimilés pour les trimestres repris",
+            "titel-dmfa": "Données DMFA : jours prestés/jours assimilés pour les trimestres repris",
+            "gepresteerde-dagen": "Jours prestés",
+            "gelijkgestelde-dagen": "Jours assimilés",
+            "toegevoegde-gepresteerde-dagen": "Jours prestés ajoutés",
+            "toegevoegde-gelijkgestelde-dagen": "Jours assimilés ajoutés",
+            "kwartaal": "Kwartaal"
+          },
+          "bijgevoegde-documenten": {
+            "titel": "Documents à joindre",
+            "overlapping-warning": "Attention, chevauchement par le document ajouté",
+            "document-type": {
+              "titel": "Type  de document ",
+              "voeg-toe": "Ajoutez",
+              "begindatum-overlapping": "Chevauchement date de début",
+              "einddatum-overlapping": " Chevauchement date de fin",
+              "totaal-dagen-regime5": "Total nombre de jours  régime 5",
+              "totaal-dagen-regime6": "Total nombre de jours régime 6"
+            },
+            "toegevoegde-documenten": {
+              "titel": "Documents joints",
+              "geen-documenten": "Il n’y a pas de documents joints à la demande",
+              "geldig-van": "Valable à partir du",
+              "geldig-tot": "Valable jusqu’au",
+              "geldig-op": "Valable de",
+              "geldig-vanaf": "Valable à depuis le",
+              "dagen": "jours",
+              "tot": "jusqu’au"
+            }
+          }
+        },
+        "document-types": {
+          "Beroepsopleiding": "Attestation formation professionnelle",
+          "OntslagWerkgever": "C4 employeur",
+          "OntslagGegeven": "C4 ouvrier",
+          "VolledigeWerkloosheid": "Attestation de chômage complet",
+          "TewerkstellingAndereSector": "Attestation d’occupation dans un autre secteur ",
+          "ZelfstandigeActiviteit": "Attestation d’activité indépendante",
+          "WerkgeverAndereSector": "Attestation employeur autre secteur",
+          "KopieContractWerkgever": "Attestation contrat d’apprentissage",
+          "AttestParitairLeercommittee": "Copie du contrat auprès d’un employeur construction",
+          "AttestCentrumBeroepsopleiding": "Attestation d’un centre de formation professionnelle",
+          "AttestMutualiteitArbeidsongevallenverzekeraar": "Attestation mutuelle ou assurance",
+          "AttestLoopbaanonderbreking": "Attestation d’intérruption de carrière",
+          "AttestBouwondernemingEu": "Attestation d’un entreprise de l’ UE",
+          "AttestBouwondernemingBe": "Attestation d’une entreprise Belge à l’étranger",
+          "AttestBureauArbeidsMededeling": "Attestation de l’office de l’emploi",
+          "Leerovereenkomst": "Attestation contrat d’apprentissage",
+          "Student": "Attestation étudiant"
+        }
+      },
+      "aanvraagselectie": {
+        "titel": "Choisissez le type de demande",
+        "aanvraag-types": {
+          "nieuwe-arbeider": "Carte de légitimation nouvel ouvrier",
+          "gelijkstelling": "Carte de légitimation assimilation prestations hors secteur construction"
+        }
+      },
+      "dossier-status": {
+        "InCreatie": "En création",
+        "InGescand": "Scanné",
+        "Gecreeerd": "Créé",
+        "SimulatieOk": "Simulation OK",
+        "Gevalideerd": "Validé",
+        "GeweigerdPDOK": "Refusé OPOC",
+        "AanvaardPDOK": "Accepté OPOC",
+        "AanvaardPDOKOnderVoorbehoud": "Accepté OPOC sous réserve",
+        "AutomatischGeweigerd": "Refus automatique",
+        "GeweigerdFBZ": "Refusé FSE",
+        "Afgesloten": "Clos",
+        "Geannuleerd": "Annulé",
+        "Ingescand": "Scanné"
+      },
+      "nieuwe-arbeider": {
+        "titel": "INFORMATION SUR LA MISE AU TRAVAIL",
+        "opslaan": "Sauver",
+        "opgeslagen": "Succès! Un peu de patience...",
+        "simuleer": "Simuler",
+        "valideer": "Valider",
+        "error": {
+          "opslaan": "_FR_Kan dossier niet opslaan voor nieuwe arbeider"
+        },
+        "success": {
+          "opslaan": "_FR_Het dossier is succesvol opgeslagen"
+        },
+        "datum-tewerkstelling": {
+          "titel": "Commence de mise au travail",
+          "label": "Date de mise au travail",
+          "nieuwe-bouwvakker-sinds": "Je suis un nouvel ouvrier de la construction depuis le",
+          "terugkerende-arbeider-sinds": "J’ai repris le travail dans la construction le",
+          "geen-startdatum-gevonden": "Datum indiensttreding  niet gevonden",
+          "startdatum-ontbreekt": "_FR_Gelieve aan te duiden wanneer de start van tewerkstelling is begonnen",
+          "validation-select-start": "_FR_Gelieve aan te duiden hoe de start van tewerkstelling is verlopen",
+          "identiteit-aanvrager-ontbreekt": "Gelieve de identiteit van de aanvrager te selecteren"
+        },
+        "invullen-indien-van-toepassing": {
+          "titel": "Ce qui suit est uniquement à compléter si d’application",
+          "voordien-beroepsopleiding": "Au paravent, j’ai suivi une formation professionnelle construction",
+          "ontslagen-op": "J’ai été licencié par mon employeur construction précédent le",
+          "datum-van-ontslag": "_FR_Ontslagdatum"
+        },
+        "sinds-ontslag": {
+          "titel": "Depuis mon licenciement jusqu’à la date de reprise du travail",
+          "volledig-werkloos": "J’étais en chômage complet",
+          "andere-sector": "Je travaillais dans un autre secteur",
+          "zelfstandige": "J’étais indépendant"
+        },
+        "arbeidsprestaties": {
+          "voeg-toe": "Attestation en relation avec les prestations"
+        },
+        "vlaggen": {
+          "foutieve-aanvraag": "Demande fautive",
+          "ongeldig-insz-nummer": "N°NISS non valide",
+          "ongeldig-kbo-nummer": "N° BCE non valide",
+          "niet-in-dienst": "Pas en service",
+          "rhlk-voor-jaar": "CLAD pour l’année",
+          "ongeldigeAantalDagen": "Nombre max. de jours pour le trimestre est dépassé"
+        }
+      },
+      "gelijkstelling": {
+        "titel": "INFORMATION SUR LA MISE AU TRAVAIL",
+        "titel-terugkerende-arbeider": "J’ai repris le travail dans le secteur le",
+        "vorige-situatie": {
+          "titel": "Au paravent, je me trouvais dans la situation suivante",
+          "titel-terugkerende-arbeider": "Commence de mise au travail",
+          "tewerkstelling-situatie-types": {
+            "TewerkgesteldInAndereSectorDoorBureauVoorArbeidsbemiddeling": "Dans l’AR ou l’AR+1 mis au travail par un office de l’emploi dans un autre secteur ",
+            "TewerkgesteldBijOpenbaarBestuurDoorBureauVoorArbeidsbemiddeling": " Dans l’AR ou l’AR+1 mis au travail par un office de l’emploi auprès d’une administration publique",
+            "EenLeerOvereenkomstInBouwSuccesvolBeeindigd": " Dans l’AR ou l’AR+1 terminé avec fruit un contrat d’apprentissage dans la construction",
+            "RjGewerktAlsInstructeurOfMonitorInCentrumVoorBeroepsopleiding": " Dans l’AR  travaillé comme instructeur/moniteur dans un centre de formation professionnelle",
+            "RjLangdurigOngeschikt": " Dans l’AR en incapacité de travail de longue durée",
+            "BlancoOfOngeldig": "Autre"
+          }
+        },
+        "geen-startdatum-gevonden": "Date d’entrée en service non trouvée",
+        "error": {
+          "opslaan": "_FR_Kan dossier niet opslaan voor gelijkstelling"
+        },
+        "success": {
+          "opslaan": "_FR_Het dossier is succesvol opgeslagen"
+        }
+      },
+      "resultaat": {
+        "flags": {
+          "title": "Drapeaux",
+          "geldig-insz": "N° NISS valable",
+          "correcte-aanvraag": "Demande correcte",
+          "geldig-kbo": "N° BCE valide",
+          "in-dienst": "Entrée en service",
+          "bestaande-rhlk": "Pas de CLAD existente",
+          "heeft-gevalideerde-aanvraag-dossier-voor-jaar": "A déjà un attest validé pour l’AR demandée"
+        },
+        "simulatie": {
+          "title": "Simulation",
+          "geen-data": "_FR_Geen simulatie data te tonen wegens de status van dit dossier",
+          "resultaten": {
+            "jaar": "Année",
+            "type": "Type",
+            "motieven-weigering": "Motifs de refus"
+          }
+        },
+        "uitgegeven-lk": {
+          "title": "Cartes de légitimation",
+          "geen-kaarten": "_FR_Deze simulatie heeft geen rechthebbende legitimatiekaarten",
+          "automatische-controles": {
+            "jaar": "Année",
+            "type": "Type",
+            "geldigheidperiode": "Periode de validité"
+          }
+        },
+        "memo": "Mémo",
+        "toevoegen": "Ajouter",
+        "opslaan": "Enregistrer",
+        "of": "ou",
+        "annuleer": "annuler",
+        "minstens-1-reden-weigering": "Choisissez au moins 1 motif de refus",
+        "minstens-1-motief-weigering": "Au moins 1 motif de refus"
+      }
+    }
+  },
+  "persoon": {
+    "tawv": {
+      "error-betwisting": "_FR_Er is iets mis gelopen bij het betwisten van de persoon"
+    },
+    "leftnav": {
+      "algemeen": "Général",
+      "ontvangen-prestaties": "Prestations reçues",
+      "gevalideerde-prestaties": "Prestations validées",
+      "overzicht-legitimatiekaarten": "Aperçu cartes de légitimation",
+      "voordelen": {
+        "title": "Avantages",
+        "legitimatiekaart": "Carte de légitimation",
+        "legitimatiekaart-op-aanvraag": "Carte de légitimation sur demande",
+        "sociaal-voordeel": "Avantage Social",
+        "medisch-plan": "Plan Médical",
+        "hospitalisatie": "Hospitalisation",
+        "alternerend-leren": "FR_Alternerend Leren"
+      }
+    },
+    "algemeen": {
+      "algemeen": "Général",
+      "algemene-informatie": "Information générale",
+      "officieel-adres": "Adresse officielle",
+      "burgerlijke-staat": "Etat civil",
+      "burgerlijke-staat-gehuwd-met": "Marié à",
+      "sinds": "Depuis",
+      "naam-partner": "Partenaire",
+      "toon-historiek": "Ouvrir l'historique",
+      "verberg-historiek": "Fermer l'historique",
+      "moedertaal": "Langue maternelle",
+      "geboortedag": "Jour de naissance",
+      "pensioensdatum": "Date de pension",
+      "gestorven-op": "Décédé le",
+      "geen-adres": "Cette personne n'a pas d'adresse"
+    },
+    "burgerlijke-staat": {
+      "title": "Etat civil",
+      "gehuwd-met": "Marié à",
+      "Unknown": "Inconnu",
+      "Unmarried": "Célibataire",
+      "Married": "Marié",
+      "AnnulmentOfMarriage": "Annulation mariage",
+      "PutativeMarriage": "Mariage putatif",
+      "Widow": "Veuve",
+      "Divorced": "Divorcé",
+      "DivorcedSince19941001": "Divorcé",
+      "LegallySeparated": "Légalement divorcé",
+      "LegallySeparatedSince19941001": "Légalement divorcé",
+      "Repudiation": "Rejet",
+      "Partnership": "Partenariat",
+      "PartnershipTermination": "Fin parternariat",
+      "LegallyCohabiting": "Cohabitation légale",
+      "Undetermined": "Indéterminé"
+    },
+    "loopbaan": {
+      "title": "Carrière",
+      "legitimatiekaarten-table": {
+        "title": "Aperçu cartes de légitimation",
+        "rechthebbende": "Ayant droit",
+        "niet-rechthebbende": "Non ayant droit",
+        "headers": {
+          "refertejaar": "Année de référence",
+          "kaartnummer": "Carte n°",
+          "soortkaarttype": "Type",
+          "prestaties": {
+            "gepresteerde-dagen": "Prestés",
+            "gelijkgestelde-dagen": "Assimilés",
+            "economische-werkloosheid-dagen": "Eco",
+            "vorst-dagen": "Gel",
+            "type-kaart": "Type de carte",
+            "rust-dagen": "Jours de repos",
+            "totaal-aantal-dagen": "Total",
+            "krediet-dagen": "Crédit"
+          },
+          "begin-eind": "Début/fin",
+          "ticket-nummer": "_FR_Ticket nummer",
+          "geldigheid": "Validité",
+          "memo": "Mémo"
+        },
+        "tooltips": {
+          "gepresteerde-dagen": "Jours prestés (code 001)",
+          "gelijkgestelde-dagen": "Jours assimilés (codes 4, 5, 10, 11, 13, 21, 22, 23, 25, 50, 51, 52, 60, 61)",
+          "economische-werkloosheid-dagen": "Jours chômage économique (code 71)",
+          "vorst-dagen": "Jours de gel (zie werkloosheidsgegevens)",
+          "rust-dagen": "Jours de repos (code 12)",
+          "totaal-aantal-dagen": "Nombre total de jours",
+          "krediet-dagen": "Jours de crédit"
+        },
+        "kaart": {
+          "geen-kaart": "Pas de CL",
+          "type": {
+            "fictief": "AD fictif",
+            "RhNormaal": "AD normal",
+            "RhEconomischeWerkloosheid": "AD eco",
+            "RhVersoepeling": "AD assouplissement",
+            "RhGelijkstelling": "AD assimilation",
+            "NietRh": "NAD",
+            "Attest": "Attestation",
+            "RhDoorBetwisting": "AD contestation"
+          }
+        }
+      }
+    },
+    "gevalideerde-prestaties": {
+      "tab": {
+        "werkloosheid": "Chômage"
+      },
+      "gevalideerde-dmfa": {
+        "header": {
+          "kwartaal": "Trimestre",
+          "werkgever": "Employeur",
+          "werknemer": "Travailleur",
+          "tewerkstelling": "Occupation"
+        },
+        "tooltips": {
+          "code001": "données de temps de travail, couvertes par rémunérations avec cotisations O.N.S.S. (excepté vacances)",
+          "code002": "vacances légales des ouvriers",
+          "code010": "salaire garanti deuxième semaine, jours féries pendant les périodes de chômage temporaire",
+          "code011": "Incapacité de travail avec complément ou avance (CCT  12bis/13bis)",
+          "code012": "vacances en vertu d'une C.C.T. rendue obligatoire ou  repos compensatoire construction",
+          "code050": "maladie (maladie ou accident de droit commun et congé prophylactique);",
+          "code060": "accident du travail",
+          "code070": "chômage temporaire autre que les codes 71 et 72",
+          "code071": "chômage économique",
+          "code072": "chômage temporaire pour cause d'intempéries",
+          "isedited": "Edité"
+        },
+        "type-tewerkstelling": {
+          "Arbeider": "Ouvrier",
+          "ArbeiderPlus18": "Ouvrier",
+          "ArbeiderMin19": "Ouvrier moins 19",
+          "LeerlingPlus18": "Apprenti plus 18",
+          "LeerlingMin19": "Apprenti moins 19",
+          "Gesco": "A.C.S.",
+          "Student": "Etudiant",
+          "Ander": "Autres"
+        },
+        "editable": {
+          "title": "Prestations DmfA",
+          "aantal-dagen": "Nombre de jours",
+          "code": "Code",
+          "actions": {
+            "save": "Sauvegarder",
+            "cancel": "Annuler",
+            "close": "Fermer",
+            "edit": "Editer"
+          },
+          "geen-dmfa-prestaties": "Pas de prestations DmfA trouvées"
+        },
+        "geen-resultaten": "Pas de DmfA trouvées",
+        "totaal": "Total"
+      },
+      "gevalideerde-werkloosheid": {
+        "header": {
+          "refertemaand": "Mois de référence",
+          "ui-sectie": "Section OP",
+          "type-werkloosheid": "Type chômage",
+          "ondernemingsnummer": "N° d'entreprise",
+          "barema": "Barème",
+          "bedrag": "Montant",
+          "soort-dagen": "Complet / Demi",
+          "dagen-totaal": "Total",
+          "allocations": "Allocations",
+          "type": "Type",
+          "bron": "Source"
+        },
+        "werkloosheid": "Chômage",
+        "geen-resultaten": "Pas de données chômage trouvées",
+        "geen-parameters": "Paramètres chômage non trouvés pour l'année: ",
+        "geen-kbo-of-rsz": "Pas de",
+        "totaal": "Total",
+        "toast": {
+          "foutieve-kbonummer": "Echec de la sauvegarde: N° BCE pas trouvé"
+        }
+      }
+    },
+    "ontvangen-prestaties": {
+      "ontvangen-dmfa": {
+        "titel": "Prestations DmfA",
+        "headers": {
+          "kwartaal": "Trimestre",
+          "werkgever": "Employeur",
+          "werknemer": "Travailleur",
+          "tewerkstelling": "Occupation",
+          "prestaties": {
+            "bezoldigd": "Rémun.",
+            "rustdagen": "Repos",
+            "tijdelijke-werkloosheid": "Ch.temp.",
+            "arbeidsongeschiktheid": "Incap.",
+            "andere": "Autres"
+          },
+          "andere-bezoldiging": "Autre rémun.",
+          "gewone-bezoldiging": "Rémun. ordinaire"
+        },
+        "tooltips": {
+          "bezoldigd": "(code 1, 2, 3, 4)",
+          "rustdagen": "(code 12)",
+          "tijdelijke-werkloosheid": "Chômage temporaire (codes 70, 71, 72)",
+          "arbeidsongeschiktheid": "Incapacité de travail (codes 10, 11, 50, 60, 61)",
+          "andere": "Autres"
+        },
+        "geen-resultaten": "_FR_Er zijn geen dmfa resultaten gevonden",
+        "tabel": {
+          "type-tewerkstelling": {
+            "Arbeider": "Ouvrier",
+            "ArbeiderPlus18": "Ouvrier",
+            "ArbeiderMin19": "Ouvrier moins 19",
+            "LeerlingPlus18": "Apprenti plus 18",
+            "LeerlingMin19": "Apprenti moins 19",
+            "Gesco": "A.C.S.",
+            "Student": "Etudiant",
+            "Ander": "Autres"
+          },
+          "volledige-loopbaanonderbreking": "Interruption complète de carrière",
+          "verbrekingsvergoeding": "Indemn. de rupture"
+        },
+        "details": {
+          "statuut": {
+            "titel": "Statut",
+            "werknemerscode": "Code travailleur",
+            "leerling": "Apprenti",
+            "type": "Type",
+            "student": "Etudiant",
+            "aantal-dagen": "Nombre de jours",
+            "loon": "Rémunération (€)",
+            "maatregel-tewerkstelling": "Mesure visant à favoriser l’emploi",
+            "grensarbeider": "Frontalier",
+            "gepensioneerd": "Pensionné",
+            "tooltips": {
+              "bevorderingWerkgelegenheid": {
+                "1": "travailleur engagé dans le cadre de l'A.R. 495",
+                "2": "travailleur engagé dans le cadre de mesures d'activation des allocations de chômage, du revenu d'intégration ou de l'aide sociale financière. Ce code doit uniquement être utilisé dans le cas suivant : une occupation dans le cadre d'un programme de transition professionnelle reconnu et une occupation dans le cadre de l'économie d'insertion sociale (SINE).",
+                "3": "travailleur engagé dans le cadre de la redistribution du travail dans le secteur public",
+                "4": "travailleur engagé dans le cadre du troisième circuit du travail",
+                "5": "travailleur engagé dans le cadre du programme PRIME",
+                "10": "travailleur engagé dans le cadre d'une convention de premier emploi, type un (définie à l’article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)",
+                "11": "travailleur engagé dans le cadre d'une convention de premier emploi, type deux (définie à l’article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)",
+                "12": "travailleur engagé dans le cadre d'une convention de premier emploi, type trois (définie à l’article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)",
+                "13": "travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type un (définie à l’article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)",
+                "14": "travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type deux (définie à l’article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)",
+                "15": "travailleur handicapé engagé dans le cadre d'une convention de premier emploi, type trois (définie à l’article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)",
+                "16": "travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type un (définie à l’article 27, premier alinéa, 1°, de la loi du 24 décembre 1999)",
+                "17": "travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type deux (définie à l’article 27, premier alinéa, 2°, de la loi du 24 décembre 1999)",
+                "18": "travailleur d'origine étrangère engagé dans le cadre d'une convention de premier emploi, type trois (définie à l’article 27, premier alinéa, 3°, de la loi du 24 décembre 1999)",
+                "19": "travailleur ancien chômeur complet indemnisé de 45 ans au moins dont l'engagement est assimilé à une convention de premier emploi"
+              }
+            }
+          },
+          "prestaties": {
+            "titel": "Prestations",
+            "code": "Code",
+            "prestaties-dagen": "Nombre de jours",
+            "uren": "Nombre d'heures",
+            "geen-prestaties": "_FR_Er zijn geen prestaties voor dit kwartaal"
+          },
+          "gewaarborgd-maandloon": {
+            "titel": "Salaire mensuel garanti",
+            "week1": "1e semaine",
+            "week2": "2e semaine",
+            "week3-4": "3 - 4e semaine",
+            "loon-ziekte": "Rémunération en cas de maladie (€)",
+            "aantal-dagen": "Nombre de jours"
+          },
+          "aangifte": {
+            "titel": "Déclaration",
+            "nummer": "Numéro",
+            "situatienr": "Numéro de situation",
+            "aard": "Genre",
+            "aard-Original": "Original",
+            "aard-Change": "Changement",
+            "aard-Cancelled": "Annulation",
+            "bestand": "Fichier",
+            "creatiedatum": "Date de création",
+            "identiteit-aangever": "Identité déclareur",
+            "tooltips": {
+              "identiteitAangever": {
+                "10": "Employeur",
+                "11": "Secrétariat social",
+                "12": "Prestataire de service",
+                "13": "Curateur",
+                "20": "Inspecteur ONSS qualité employeur",
+                "22": "Système",
+                "23": "Insprecteur ONSS qualité ONSS",
+                "24": "Agent qualité ONSS",
+                "30": "Inspecteur MET",
+                "31": "Inspecteur MAS",
+                "50": "Agent MET",
+                "51": "Agent MAS",
+                "52": "Agent CIN",
+                "53": "Agent FAT",
+                "54": "Agent FMP",
+                "55": "Agent INAMI",
+                "56": "Agent ONP",
+                "57": "Agent ONVA",
+                "58": "Agent SPF Finances Trésor",
+                "59": "Agent Ass Fonds sécurité existence",
+                "60": "Agent ONEM",
+                "61": "Agent INASTI",
+                "62": "Agent CPM",
+                "63": "Agent OSSOM",
+                "64": "Agent Admin. PensionS",
+                "65": "Agent BCSS",
+                "66": "Agent CAPAC",
+                "67": "Agent CAAMI",
+                "68": "Agent ONAFTS",
+                "74": "Agent IVA Jongerenwelzijn",
+                "90": "Employeur ONSS APL",
+                "91": "Full Service ONSS APL",
+                "92": "Fournisseur de service ONSS APL",
+                "93": "Inspecteur ONSS APL",
+                "94": "Agent ONSS APL"
+              }
+            }
+          },
+          "tewerkstelling": {
+            "titel": "Mise au travail",
+            "kwartaal": "Trimestre",
+            "kbo-nr": "N° BCE",
+            "rsz-categorie": "Catégorie O.N.S.S.",
+            "pc": "PC",
+            "tewerkstelling-van": "Mise au travail depuis le",
+            "tewerkstelling-tot": "jusqu'au",
+            "kwartaal-van": "Trimestre du",
+            "kwartaal-tot": "jusqu'au",
+            "gem-uren-week": "# nombre moyen d'heures/semaine",
+            "gem-dagen-week": "# nombre moyen de jous/semaine",
+            "uurloon": "Salaire horaire (€)",
+            "reorganisatie-arbeidstijd": "Réorganisation du temps de travail",
+            "tooltips": {
+              "reorganisatieArbeidstijd": {
+                "1": "Mesure de réduction du temps de travail dans le cadre d'un plan de redistribution du travail approuvé par le Ministre de l'emploi et du travail.",
+                "2": "Systèmes prévus par la CCT n° 42 du 12 juin 1987 relative à l'instauration de nouveaux régimes de travail dans les entreprises. Les expérimentations Hansenne (A.R. 179 du 30/12/1982) ne sont pas comprises.",
+                "3": "Interruption complète de la carrière professionnelle (uniquement les systèmes où une intervention de l'ONEm est prévue)",
+                "4": "Interruption partielle de la carrière professionnelle (uniquement les systèmes où une intervention de l'ONEm est prévue)",
+                "5": "Travail adapté avec perte de salaire c'est à dire lorsque le travailleur accompli des prestations de travail effectives pour lesquelles il perçoit une rémunération réduite.",
+                "6": "Prépension à mi-temps",
+                "7": "Réduction des prestations dans le secteur public en application de la loi du 10 avril 1995 (semaine volontaire de quatre jours, départ anticipé à mi-temps). Semaine de quatre jours avec ou sans prime (loi du 19 juillet 2012) pour les travailleurs contractuels.)",
+                "107": "Travailleur contractuel ou statutaire qui suit un projet de formation pour infirmiers dans le cadre du Maribel Social et qui est rémunéré durant son absence au travail parce qu'il suit une formation dans le cadre d'un enseignement à temps plein ou d'un enseignement de promotion sociale en vue d'être diplômé ou gradué en soins infirmiers",
+                "301": "Interruption totale de la carrière pour congé parental",
+                "302": "Interruption totale de la carrière en vue d'assurer des soins palliatifs",
+                "303": "Interruption totale de la carrière pour l'assistance ou l'octroi de soins à un membre de son ménage ou à un membre de sa famille jusqu'au deuxième degré qui souffre d'une maladie grave",
+                "401": "Interruption partielle de la carrière pour congé parental",
+                "402": "Interruption partielle de la carrière en vue d'assurer des soins palliatifs",
+                "403": "Interruption partielle de la carrière pour l'assistance ou l'octroi de soins à un membre de son ménage ou à un membre de sa famille jusqu'au deuxième degré qui souffre d'une maladie grave",
+                "501": "Absence (totale ou partielle) assimilée à de l’activité de service ou à du service actif avec une rémunération autre que le traitement d’activité",
+                "502": "Absence (totale ou partielle) assimilée à de l’activité de service et non rémunérée",
+                "503": "Absence (totale ou partielle) assimilée à de l’activité de service, préalable à la mise à la retraite avec traitement d'attente",
+                "504": "Congé parental",
+                "505": "Absence non rémunérée et assimilée à de l'activité de service en vue d'exercer une activité professionnelle (stage, intérim dans l'enseignement, mission, mandat, …)",
+                "506": "Prestations réduites pour convenances personnelles",
+                "507": "Disponibilité (totale ou partielle) avec traitement d'attente et maintien du droit à l'avancement de traitement",
+                "508": "Disponibilité (totale ou partielle) avec traitement d'attente et perte du droit à l'avancement de traitement",
+                "509": "Disponibilité (totale ou partielle) préalable à la mise à la retraite avec traitement d'attente",
+                "510": "Absence (totale ou partielle) non rémunérée avec position de non-activité, ou disponibilité sans traitement d’attente, ou toute forme de non-activité sans traitement pour les militaires",
+                "511": "Absence (totale ou partielle) rémunérée avec position de non-activité ou disponibilité volontaire avec activité professionnelle sans autorisation pour les militaires",
+                "512": "Congé sans traitement avec position de non-activité",
+                "513": "Congé d’office pour mission d’intérêt général en vue d’exercer une fonction de management ou une fonction d’encadrement dans un service public",
+                "514": "Semaine de quatre jours avec prime ou travail à mi-temps à partir de 50 ou 55 ans (loi du 19 juillet 2012) pour les travailleurs statutaires.",
+                "515": "Congé ou dispense de service accordé à un membre du personnel de l'enseignement en vue d’exercer temporairement ou provisoirement une autre fonction dans l'enseignement non universitaire de la même Communauté.",
+                "516": "Absence complète, assimilée à de la non-activité préalable à la pension et avec un traitement d'attente (personnel de police opérationnel).",
+                "521": "Absence (totale ou partielle) non rémunérée par l'employeur pour un travailleur contractuel",
+                "531": "Disponibilité (totale ou partielle) par défaut d'emploi sans traitement d'attente (enseignement)",
+                "541": "Retrait temporaire d’emploi par interruption de carrière (militaires), ou interruption de carrière avec allocation à charge de l’employeur",
+                "542": "Retrait temporaire d’emploi pour motif de santé (militaires)",
+                "543": "Retrait temporaire d’emploi par mesure disciplinaire ou toute autre période de non-activité rémunérée (militaires)",
+                "544": "Congé ou interruption de carrière pour soins palliatifs, congé de protection parentale ou interruption de carrière pour congé parental, congé ou interruption de carrière pour soins à un parent gravement malade, avec allocation à charge de l'employeur",
+                "545": "Disponibilité automatique (militaires)",
+                "546": "Disponibilité volontaire (militaires)",
+                "599": "Absences simultanées impliquant une combinaison de mesures de réorganisation du temps de travail pour un travailleur statutaire du secteur public"
+              }
+            }
+          },
+          "bezoldigingen": {
+            "titel": "Rémunérations",
+            "bedrag": "Montant (€)",
+            "code": "Code",
+            "geen-bezoldigingen": "Il n'y a pas de rémunérations pour ce trimestre"
+          }
+        }
+      },
+      "ontvangen-dimona": {
+        "titel": "Dimona",
+        "headers": {
+          "inDienst": "En service",
+          "uitDienst": "Hors service",
+          "kboNr": "N° BCE",
+          "parCom": "N° Com pAR",
+          "aardWn": "Type de TRAV",
+          "datumAangifte": "Déclaration",
+          "datumInlezen": "Télécharger",
+          "gebruiker": "Utilisateur",
+          "c3dot2ANbr1": "C3.2ANbr1",
+          "c3dot2ANbr2": "C3.2ANbr2"
+        },
+        "tooltips": {
+          "aardWn": "Type de TRAV"
+        },
+        "geen-resultaten": "_FR_Er zijn geen dimona resultaten gevonden",
+        "enkel-geschrapte-dimona": "_FR_Er zijn enkel geschrapte dimonaresultaten gevonden. Klik op \"Toon geschrapt\" om ze te tonen."
+      },
+      "ontvangen-werkloosheid": {
+        "titel": "Chômage",
+        "headers": {
+          "refertemaand": "Mois de référence",
+          "ui-sectie": "Section OP",
+          "type-werkloosheid": "Type chômage",
+          "ondernemingsnummer": "N° d'entreprise",
+          "barema": "Barème",
+          "bedrag": "Montant",
+          "volle-halve": "Complet / Demi",
+          "type-vergoeding": "Type d'indemnité",
+          "vergoedingen-bz": "Indemnités SE",
+          "bron": "Source"
+        },
+        "geen-resultaten": "Pas de données chômage trouvées",
+        "geen-parameters": "Paramètres chômage non trouvés pour l'année: ",
+        "details": {
+          "bestandsinformatie": {
+            "titel": "Détails du fichier",
+            "ontvangen-in-bestand": "Reçues dans le fichier",
+            "c10-maand": "Mois C10",
+            "ingelezen-op": "Lu le",
+            "key": "Clé"
+          },
+          "werkloosheid": {
+            "titel": "Détails chômage",
+            "type-werkloosheid": "Type chômage",
+            "type-tijdelijke-werkloosheid": "Type chômage temporaire",
+            "iban": "IBAN",
+            "art42m99-flag": "Art42M99Flag"
+          },
+          "tewerkstelling": {
+            "titel": "Occupation",
+            "loon": "Salaire",
+            "uurloon": "Salaire horaire",
+            "cycle": "Cycle",
+            "loonperiode": "Période de salaire",
+            "mean-working-hours": "MeanWorkingHours",
+            "ref-mean-working-hours": "RefMeanWorkingHours",
+            "hours-to-decline": "Heures non indemnisées",
+            "hours-to-pay": "Heures indemnisées",
+            "salarisperiode": {
+              "Hour": "Heure",
+              "Day": "Jour",
+              "Week": "Semaine",
+              "Month": "Mois",
+              "Quarter": "Trimestre",
+              "Year": "Année"
+            }
+          },
+          "plaats-tewerkstelling": {
+            "titel": "Lieu d’occupation",
+            "postcode": "Code postale",
+            "land": "Pays"
+          },
+          "woonplaats": {
+            "titel": "Domicile",
+            "postcode": "Code postale",
+            "land": "Pays"
+          }
+        }
+      },
+      "ontvangen-verlofkas-bouw": {
+        "titel": "Données caisse congé batiment",
+        "geen-resultaten": "Pas de données disponibles",
+        "headers": {
+          "kwartaal": "Trimestre",
+          "ziektedagen": "Jours de maladie",
+          "arbeidsongevaldagen": "Jours accident de travail",
+          "begin-eind": "Début/Fin"
+        },
+        "tooltips": {
+          "ziektedagen": "050",
+          "arbeidsongevaldagen": "060"
+        },
+        "totaal": "Total"
+      },
+      "ontvangen-rsvz": {
+        "titel": "Données INASTI",
+        "geen-resultaten": "Pas de données disponibles",
+        "headers": {
+          "jaar": "Année",
+          "datum-registratie": "Date enregistrement",
+          "datum-geschrapt": "Date suppression"
+        }
+      }
+    },
+    "legitimatiekaart": {
+      "titel": "Details cartes de légitimation",
+      "geen-legitimatiekaarten": "Cette personne ne possède pas de cartes de légitimation",
+      "refertejaar": "Année de référence",
+      "details": {
+        "kaartnummer": "N° carte",
+        "gepresteerd": "Prestés",
+        "gelijkgesteld": "Assimilés",
+        "vorst": "Gel",
+        "rust": "Repos",
+        "kwartaal1": "Trimestre 1",
+        "kwartaal2": "Trimestre  2",
+        "kwartaal3": "Trimestre   3",
+        "kwartaal4": "Trimestre   4",
+        "jaartotaal": "Total année",
+        "kredietdagen": "Jours de crédit",
+        "aantalvoorgaanderhkaarten": "AD précédentes",
+        "aantalonmvoorgaanderhkaarten": "# AD immédiatement précédentes",
+        "aantalonmvoorgaanderhecokaarten": "# AD ECO immédiatement précédentes",
+        "subtotaal": "Soustotal",
+        "toegepastedageneco": " ECO appliqués",
+        "leeftijd": "Âge",
+        "tebewijzen": "A prouver",
+        "totaal": "Total",
+        "simulatie-op": "Simulation le",
+        "testrun-op": "Testrun le",
+        "uitgifte-op": "Emission le",
+        "soortkaart-attest": "Attestation",
+        "soortkaart-geenkaart": "Pas de carte",
+        "soortkaart-nrh": "NAD",
+        "soortkaart-rhbetwisting": "AD contestation",
+        "soortkaart-rheco": "AD ECO",
+        "soortkaart-rhgelijkstelling": "AD assimilation",
+        "soortkaart-rh": "AD",
+        "soortkaart-rhversoepeling": "AD assouplissement",
+        "error-getlegitimatiekaarten": "Le système rencontre actuellement des problèmes et ne peut charger des cartes de légitimation. Essayer plus tard ou contactez un administrateur.",
+        "uitwisselinginterui": {
+          "uitwisselingmetinterui": "_FR_Uitwisseling met interUI",
+          "verstuurd": "_FR_Verstuurd",
+          "ontvangen": "_FR_Ontvangen",
+          "ticketnummer": "_FR_Ticketnummer",
+          "verstuurd-via-aida": "_FR_Verstuurd via Aida"
+        }
+      }
+    },
+    "models": {
+      "werkloosheid-declaratie": {
+        "type-werkloosheid": {
+          "Item01": "Complet",
+          "1": "Complet",
+          "Item03": "Complet",
+          "3": "Complet",
+          "Item11": "Complet",
+          "11": "Complet",
+          "Item02": "Temporaire",
+          "2": "Temporaire",
+          "Item04": "Temporaire",
+          "4": "Temporaire",
+          "Item05": "Temporaire",
+          "5": "Temporaire",
+          "Item06": "Temporaire",
+          "6": "Temporaire",
+          "Item18": "Temporaire",
+          "18": "Temporaire",
+          "Item21": "Temporaire",
+          "21": "Temporaire",
+          "Item22": "Temporaire",
+          "22": "Temporaire",
+          "Item57": "Temporaire",
+          "57": "Temporaire",
+          "Item58": "Temporaire",
+          "58": "Temporaire",
+          "tijdelijk": "Temporaire"
+        },
+        "reden-tijdelijke-werkloosheid": {
+          "eco": "ECO",
+          "slecht-weer": "INTEMPERIES",
+          "technische-stoornis": "ACCIDENT TECHNIQUE",
+          "overmacht": "FORCE MAJEURE",
+          "overmacht-medische-redenen": "RAISONS MEDICALES",
+          "jaarlijkse-vakantie": "VACANCES ANNUELLES",
+          "vakantie-cao": "VAC. CCT",
+          "inhaalrust": "JOURS DE REPOS",
+          "staking": "GREVE",
+          "ontslag-werknemer": "LICENCIEMENT  TRAV.",
+          "schorsing-bediende": "SUSPENSION D’EMPLOYÉS",
+          "igu": "AGR",
+          "jvu-svu": "AVJ / AVS",
+          "reden-tijdelijke-werkloosheid": ""
+        },
+        "barema": {
+          "A": "A",
+          "0": "A",
+          "B": "B",
+          "1": "B",
+          "C": "C",
+          "2": "C",
+          "D": "D",
+          "3": "D",
+          "E": "E",
+          "4": "E",
+          "F": "F",
+          "5": "F",
+          "Item2": "2",
+          "6": "2",
+          "Item0": "0",
+          "7": "0"
+        },
+        "soort-dagen": {
+          "halve": "Demi",
+          "volle": "Complet"
+        },
+        "type-vergoeding": {
+          "bouw": "Construction",
+          "vorst": "Gel",
+          "winter": "Formation hivernale",
+          "bijbetaling": "Complément versé",
+          "hoofdvergoeding": "Allocation principale"
+        },
+        "uitbetalings-instelling": {
+          "HVW": "CAPAC",
+          "1": "CAPAC",
+          "ACV": "CSC",
+          "2": "CSC",
+          "ABVV": "FGTB",
+          "3": "FGTB",
+          "ACLVB": "CGSLB",
+          "4": "CGSLB"
+        },
+        "bron": {
+          "uitw": "UITW",
+          "ui": "OP"
+        }
+      }
+    },
+    "medisch-plan": {
+      "kwartaal": "Trimestre",
+      "status": {
+        "titel": "Ayant-droit",
+        "Recht": "Droit",
+        "GeenRecht": "Pas droit"
+      },
+      "actie": {
+        "titel": "Action",
+        "Verderzetting": "Continuation",
+        "Aansluiting": "Affiliation",
+        "Afsluiting": "Clôture",
+        "GeenActie": "Pas d'action."
+      },
+      "waarschuwing": "Avertissement",
+      "workflow-status": {
+        "titel": "Statut",
+        "uitgifte": "Emission",
+        "simulatie": "Simulation",
+        "testrun": "Testrun"
+      },
+      "simuleer": "Simuler pour une personne.",
+      "details": "Détails",
+      "genereer-aansluitingsattest": "Créer une attestation d'affiliation.",
+      "document-type": {
+        "Geen": "_FR_geen brief",
+        "Aansluitingsbrief": "_FR_aansluitingsbrief",
+        "Waarschuwingsbrief": "_FR_waarschuwingsbrief",
+        "Pensioensbrief": "_FR_pensioensbrief",
+        "Onbekend": "_FR_type brief niet gemigreerd"
+      }
+    },
+    "hospi": {
+      "algemeen": {
+        "tab-title": "Général",
+        "aansluitings-overzicht": {
+          "status": {
+            "PremieInning": "Encaissement prime",
+            "AanvraagInAfwachting": "Demande en attente",
+            "AanvraagInCreatie": "Demande en création",
+            "Afgesloten": "Clos",
+            "Aangesloten": "Affilié"
+          }
+        }
+      },
+      "aansluitingsaanvragen": {
+        "tab-title": "Demandes d'affiliation",
+        "popups": {
+          "premie-inning-samenvatting": {
+            "title": "Aperçu encaissement des primes",
+            "meegenomen-naar-premie-inning": "Sera pris en considération pour l'encaissement de la prime",
+            "niet-meegenomen-naar-premie-inning": "Ne sera pas pris en considération pour l'encaissement de la prime"
+          }
+        }
+      },
+      "premie-inningen": {
+        "tab-title": "Encaissement primes"
+      },
+      "terugbetalingen": {
+        "tab-title": "Remboursements"
+      },
+      "documenten": {
+        "tab-title": "Documents"
+      },
+      "betalingen": {
+        "tab-title": "_FR_Betalingen",
+        "refresh-data": "_FR_Refresh data"
+      },
+      "historiek-aida": {
+        "tab-title": "_FR_Historiek AIDA",
+        "memo": "_FR_Memo",
+        "betalingen": "_FR_Betalingen",
+        "datum": "_FR_Datum",
+        "bedrag": "_FR_Bedrag",
+        "betaalwijze": "_FR_Betaalwijze",
+        "mededeling": "_FR_Mededeling",
+        "rekeningnummer": "_FR_Rekeningnummer",
+        "Item1": "_FR_Zegels",
+        "Item4": "_FR_Overschrijving",
+        "Item6": "_FR_Domiciliëring aangevraagd",
+        "Item8": "_FR_Domiciliëring bevestigd",
+        "Item10": "_FR_Terugstorting",
+        "Item12": "_FR_Manueel",
+        "Item14": "_FR_Zegels betaald door vakbond",
+        "Item16": "_FR_Zegels aangevraagd door vakbond",
+        "Item18": "_FR_Retour"
+      },
+      "samenvatting": {
+        "geen-medisch-plan-aansluiting": "Ne pas affilié au Plan Médical",
+        "medischplan-aangesloten-vanaf": "Affilié au Plan Médical depuis le:",
+        "medischplan-aangesloten-tot": "Affilié au Plan Médical jusqu'au:",
+        "aansluitingsoverzicht": "Aperçu des affiliations",
+        "aangesloten-sinds": "Affilié depuis le",
+        "geen-aansluitings-overzicht-gevonden": "Aucune affiliation trouvée",
+        "openstaande-premie-inningen": "Encaissements ouverts",
+        "geen-openstaande-premie-inningen-gevonden": "Aucun encaissement trouvé"
+      },
+      "arbeider": {
+        "memo": "Mémo",
+        "betaalwijze-arbeider": "Mode de paiement"
+      },
+      "tabel": {
+        "naam": "Nom",
+        "aanvraagperiode": "Période",
+        "insz": "NISS",
+        "status": "Statut",
+        "premie": "Prime",
+        "verderzetten": "Continuer"
+      },
+      "persoonsgegevens": "Données personnelles",
+      "aanvraaggegevens": "Détail demande",
+      "gezinslid": {
+        "automatisch-verderzetten": "Continuation automatique",
+        "insz": "NISS",
+        "geboortedatum": "Date de naissance",
+        "geboortedatum-nietgekend": "Inconnue",
+        "naam": "Nom",
+        "voornaam": "Prénom",
+        "aanvraagdata": {
+          "mindervalide": "Handicapée?",
+          "relatie": {
+            "titel": "Relation",
+            "kind": "Enfant",
+            "partner": "Partenaire"
+          },
+          "aansluitingvan": "Affiliation du",
+          "aansluitingtot": "Affilitation jusqu'au",
+          "laattijdig": "Tardive",
+          "wachttijd": "Stage d'attente",
+          "wachttijd-opties": {
+            "maanden-0": "0 mois",
+            "maanden-3": "3 mois",
+            "maanden-6": "6 mois"
+          },
+          "bijpremie-percentage": "% prime supplémentaire",
+          "bijpremie-bedrag": "€ prime supplémentaire",
+          "klaar-voor-premieinning": "Encaisser?",
+          "persoon-integrated": "Intégréé?",
+          "premie": "Prime",
+          "status": {
+            "Creatie": "Création",
+            "PremieInning": "Encaissement",
+            "Aangesloten": "Affilié",
+            "Afgesloten": "Clos"
+          },
+          "reden-afgesloten": {
+            "ManueelAfgeslotenInCreatie": "Clos manuellement en création",
+            "ManueelAfgeslotenInAansluiting": "Clos manuellement avec remboursement",
+            "NietBetaald": "Ne pas payé",
+            "EigenMedischPlan": "Affiliée au Plan Médical",
+            "AfgeslotenPremieInning": "Encaissement prime a été clos",
+            "GeweigerdDoorAG": "Refus par AG",
+            "AfgeslotenInAida": "Clos en AIDA"
+          }
+        },
+        "terugbetaling": {
+          "titel": "Remboursement",
+          "berekening-terugbetaling": "Calculation remboursement",
+          "oorspronkelijke-aansluitingsperiode": "Période d'affiliation originale",
+          "nieuwe-aansluitingsperiode": "Nouvelle période d'affiliation",
+          "terug-te-betalen": "Montant à rembourser",
+          "naam-ontvanger": "Nom destinataire",
+          "rekeningnummer": "Compte",
+          "bedrag": "Montant",
+          "mededeling": "Communication",
+          "terugbetalingen": "Remboursements",
+          "datum": "Date",
+          "gezinslid": "Membre de famille",
+          "insz": "NISS",
+          "betaalgegevens": "Données de paiement",
+          "defaultmededeling": "Remboursement Hospitalisation"
+        },
+        "verkort-betaalde-aanvraag": "Racourcir periode d'affiliation d'une demande payée"
+      },
+      "gezinslid-toevoegen": {
+        "titel": "Nouveau membre de famille",
+        "gevonden": "Personne connue",
+        "niet-gevonden": "Personne ne pas (encore) connue",
+        "vul-in": "Remplissez les données ci-après:",
+        "toevoegen": "Ajouter"
+      },
+      "premie-inning": {
+        "gezinsleden": "Membres de famille",
+        "betalingsopvolging": "Suivi de paiement",
+        "tabel": {
+          "creatieDatum": "Encaissement commencé le",
+          "premie": "Prime",
+          "status": "Statut",
+          "naam": "Nom",
+          "uiterste-betaal-datum": "À payer au",
+          "referentie": "Communication",
+          "betaling": "Requête",
+          "aanmaakDatum": "Fait le",
+          "vervalDatum": "Date d'échéance",
+          "overschrijving": "Virement",
+          "eerste-herinnering": "Premier rappel",
+          "tweede-herinnering": "Deuxième rappel",
+          "betaalwijze": "Mode de paiement",
+          "reeds-betaald-bedrag": "Montant déjà payé"
+        },
+        "status": {
+          "Creatie": "Création",
+          "WachtOpBetaling": "En attente de paiement",
+          "TeLaatVoorOverschrijving": "Délai virement dépassé",
+          "EersteHerinneringVerstuurd": "Premier rappel envoyé",
+          "TeLaatVoorEersteHerinnering": "Délai premier rappel dépassé",
+          "TweedeHerinneringVerstuurd": "Deuxième rappel envoyé",
+          "TeLaatVoorTweedeHerinnering": "Délai deuxième rappel dépassé",
+          "Betaald": "Payé",
+          "Afgesloten": "Clos"
+        },
+        "uiterste-betaal-datum": "Date d'échéance"
+      },
+      "betaalwijze": {
+        "Zegels": "Timbres",
+        "Overschrijving": "Virement",
+        "Werkgever": "Employeur"
+      },
+      "kwartaal-na-verderzettingen-popup": {
+        "opgelet": "Attention",
+        "message": "Les continuations des demandes d'affiliation pour l'année {0} sont déjà faites. La demande actuelle sera communiquée aux AG tant que clôture à partir du trimestre 4/{0}.",
+        "confirm": "Cliquez sur \"Confirmer\" pour continuer."
+      },
+      "markeer-laattijdig-popup": {
+        "title": "Attention",
+        "message": "Une lettre affiliation tardive sera rédigée.\nVous êtes sûr?"
+      },
+      "markeer-tijdig-popup": {
+        "title": "Attention",
+        "message": "Vous êtes sûr?"
+      },
+      "buttons": {
+        "annuleer": "Annuler",
+        "annuleer-aanvraag": "Annulation demande",
+        "opslaan": "Sauvegarder",
+        "premie-innen": "Encaisser prime",
+        "heropen": "Rouvrir",
+        "aanpassen": "Modifier",
+        "eerste-herinnering": "Premier rappel",
+        "tweede-herinnering": "Deuxième rappel",
+        "ontvang-betaling": "Paiement reçu",
+        "bevestig-niet-betaald": "Confirmation non-paiement",
+        "gezinslid-toevoegen": "Ajout de membre de famille",
+        "genereer-aansluitings-attest-gezinsleden": "Attestation d'affiliation membres de famille",
+        "bekijk-historiek": "Historique",
+        "verberg-historiek": "Cacher",
+        "geen-historiek": "Pas d'historique",
+        "nieuwe-memo": "Nouveau mémo",
+        "weigering-ag": "Refus AG",
+        "verkort-aansluitingsperiode": "Racourcir affiliation",
+        "bevestigen": "Confirmer",
+        "actions": "Actions",
+        "laattijdig": {
+          "true": "_FR_Markeer als tijdig",
+          "false": "_FR_Markeer als laattijdig"
+        }
+      },
+      "tooltips": {
+        "overzicht": "Aperçu de l'information hospitalisation de cet ouvrier.",
+        "x-annuleer": "Annuler les changements.",
+        "x-annuleer-aanvraag": "Annuler la demande.",
+        "edit-gezinslid": "Modifier la demande",
+        "gezinslid-toevoegen": "Créer une demande d'affiliation.",
+        "genereer-aansluitings-attest-gezinsleden": "Créer une attestation pour les membres de famille.",
+        "sla-eerst-wijzigingen-op": "Sauvegardez d'abord les changements.",
+        "x-annuleer-aansluitingsaanvraag": "Annuler la demande d'affiliation.",
+        "x-annuleer-aangesloten-aansluitingsaanvraag": "Annuler l'affiliation. Celle-ci nécessitera un remboursement.",
+        "x-weigering-door-ag": "Refusé par AG Insurance.",
+        "heropen": "Rouvrir la demande d'affilation.",
+        "opslaan": "Sauvegarder",
+        "startpremieinning-feature-disabled": "Feature flag pour initialisation de l'encaissement prime est éteint.",
+        "niet-klaar-voor-premie-inning": "Il n'y a aucune demande prête pour l'encaissement de la prime.",
+        "gezinslid-niet-geintegreerd": "Le membre de famille n'est pas encore intégré.",
+        "premie-inning-button-clicked": "Demande encaissement prime en traitement.",
+        "verstuur-herinnering": "Cet action enverra un rappel à l'ouvrier.",
+        "klaar-voor-premie-inning": "Prêt pour encaissement prime.",
+        "datum-niet-valid": "Il faut une date de paiement valable pour un encaissement prime.",
+        "annuleer-premie-inning": "Ceci annulera l'encaissement prime.",
+        "annuleer-premie-inning-niet-mogelijk": "Il est impossible d'annuler un encaissement prime avec ce statut.",
+        "bevestig-betaling-ontvangen": "Ceci marquera l'encaissement prime comme \"paiement complet\".",
+        "bevestig-betaling-ontvangen-niet-mogelijk": "Il est impossible de marquer un encaissement prime avec ce statut en \"paiement complet\".",
+        "bevestig-niet-betaald": "Ceci marquera l'encaissement prime comme \"non-payé\"",
+        "bevestig-niet-betaald-niet-mogelijk-ongeldig-adres": "_FR_Een premie-inning kan enkel gemarkeerd worden als 'niet betaald' wanneer de arbeider een geldig adres heeft",
+        "bevestig-niet-betaald-niet-mogelijk": "Un encaissement prime peut uniquement être marqué comme non-payé quand il se trouve en statut \"tardif pour deuxième rappel\".",
+        "te-oud-kind": "Impossible de commencer l'encaissement prime du fait que l'enfant a dépassé les 25 ans dans la période d'affiliation.",
+        "aanvraag-arbeider-onvolledig-adres": "_FR_Kan voor deze aansluitingsaanvraag geen premie-inning starten omdat de arbeider een onvolledig adres heeft.",
+        "herinnering-arbeider-onvolledig-adres": "_FR_Kan voor deze premie-inning geen herinnering sturen omdat de arbeider een onvolledig adres heeft.",
+        "geen-parameters": "Aucun paramètre n'a été trouvé pour la période d'affiliation.",
+        "memo-aanpassen": "Modifier le mémo.",
+        "memo-opslaan": "Sauvegarder le mémo.",
+        "betaalwijze-opslaan": "Sauvegarder le mode de paiement de l'ouvrier.",
+        "laattijdig": {
+          "true": "L'affiliation est à temps.",
+          "false": "L'affiliation est tardive."
+        },
+        "arbeider-onvolledig-adres": "_FR_De arbeider heeft een onvolledig adres"
+      },
+      "toast": {
+        "success-general": "_FR_Success.",
+        "aanpassen-aanvraag-succes": "La demande a été modifiée.",
+        "aanpassen-aanvraag-error": "Une erreur s'est produite.",
+        "aanmaken-aanvraag-succes": "La demande a été créée.",
+        "aanmaken-aanvraag-error": "Une error s'est produite.",
+        "premie-inning-succes": "L'encaissement prime a commencé.",
+        "premie-inning-error": "Une erreur s'est produite.",
+        "premie-inning-geannuleerd-succes": "_FR_De premie-inning is succesvol geannuleerd",
+        "premie-inning-geannuleerd-error": "Une erreur s'est produite.",
+        "annulatie-succes": "La demande a été annulée.",
+        "annulatie-error": "Une erreur s'est produite.",
+        "herinnering-verstuurd-succes": "Le rappel a été envoyé.",
+        "herinnering-verstuurd-error": "Une erreur s'est produite.",
+        "ontvang-betaling-succes": "L'encaissement prime a correctement été marqué comme 'paiement complet'.",
+        "ontvang-betaling-error": "Une erreur s'est produite.",
+        "bevestig-niet-betaald-succes": "L'encaissement a été modifié.",
+        "bevestig-niet-betaald-error": "Une erreur s'est produite.",
+        "verkort-aanvraag-succes": "La période d'affiliation est modifiée.",
+        "verkort-aanvraag-error": "Une erreur s'est produite.",
+        "aanpassen-memo-succes": "Le mémo a été modifié.",
+        "aanpassen-memo-error": "Une erreur s'est produite.",
+        "aanpassen-betaalwijze-succes": "Le mode du paiement a été modifié.",
+        "aanpassen-betaalwijze-error": "Une erreur s'est produite.",
+        "document-verwijderen-succes": "Le document a été supprimé.",
+        "document-verwijderen-error": "Une erreur s'est produite.",
+        "general-error": "Une erreur s'est produite.",
+        "aanpassen-automatisch-verderzetten-succes": "La demande a été modifiée.",
+        "aanpassen-automatisch-verderzetten-error": "Une erreur s'est produite.",
+        "aanpassen-tijdig-succes": "La demande a été modifiée.",
+        "aanpassen-tijdig-error": "Une erreur s'est produite.",
+        "aanpassen-laattijdig-succes": "La demande a été modifiée.",
+        "aanpassen-laattijdig-error": "Une erreur s'est produite.",
+        "get-aida-historiek-error": "_FR_Er is een fout opgetreden bij het ophalen van de historiek AIDA",
+        "exception": {
+          "dubbele-aansluitings-aanvraag": "Il existe déjà une demande d'affiliation pour le même ouvrier et le même membre de famille.",
+          "general": "Une erreur s'est produite.",
+          "start-premie-inning-aanvraag-niet-klaar-voor-premie-inning": "L'encaissment prime n'est pas possible du fait que la demande d'affiliation n'est pas prêt pour l'encaissement.",
+          "start-premie-inning-geen-aanvraag-klaar-premie-inning": "L'encaissement prime pour cet ouvrier n'est pas possible du fait qu'aucune de ses demandes d'affiliation ne peut être encaissée.",
+          "start-premie-inning-aanvraag-overlapt-met-lopende-aanvraag-zelfde-arbeider": "L'encaissement prime n'est pas possible parce que une ou plusieures demandes d'affiliation coïncident avec une demande d'affiliation déjà en cours pour ce même ouvrier.",
+          "start-premie-inning-aanvraag-overlapt-met-lopende-aanvraag-andere-arbeider": "L'encaissement prime n'est pas possible parce que la demande d'affiliation pour {0} coïncide avec une ou plusieures demandes d'affiliation déjà en cours pour un autre ouvrier (SynergyID: {1}). Cliquez ici pour naviguer à la personne dans un nouveau tab.",
+          "start-premie-inning-aanvraag-kind-ouder-dan-25": "L'encaissement prime n'est pas possible parce qu'il y a au moins une demande d'affiliation pour un enfant non-handicapé agé de plus de 25 ans avant le début de la période d'affiliation.",
+          "start-premie-inning-geen-adres": "L'encaissement prime n'est pas possible du fait qu'aucune adresse n'est trouvée pour cet ouvrier.",
+          "geen-geboorte-datum": "Cette personne ne dispose pas d'une date de naissance. Celle-ci est nécessaire dans Hospitalisation.",
+          "ongeldige-aanvraagdata": "Cette demande d'affiliation contient des données non valables.",
+          "ongeldig-gezinslid": "Les données du membre de famille ne sont pas valables.",
+          "aansluitings-aanvraag-niet-gevonden": "Aucune demande n'a été trouvée.",
+          "premie-inning-niet-gevonden": "Aucun encaissement prime trouvé.",
+          "parameters-niet-gevonden": "Aucun paramètre n'a été trouvé pour les année(s) {0}.",
+          "premie-berekening": "Une erreur s'est produite pendant la calculation de la prime.",
+          "actie-niet-toegelaten-in-huidige-status-aansluitings-aanvraag": "Cette action n'est pas possible dû au statut de la demande d'affiliation.",
+          "actie-niet-toegelaten-in-huidige-status-premie-inning": "Cette action n'est pas possible dû au statut de l'encaissement prime.",
+          "ongeldige-uiterste-betaaldatum": "Cette date d'échéance n'est pas valable.",
+          "ongeldige-aansluitings-periode": "Ce période d'affiliation n'est pas valable.",
+          "premie-inning-ontbrekende-parameters": "L'encaissement prime ne peut pas commencé du fait que aucun paramètre n'a été trouvé pour les année(s) {0}.",
+          "premie-inning-weigeren-door-ag-kan-enkel-indien-laattijdig": "Réfus AG uniquement possible en cas d'affiliation tardive.",
+          "terugbetaling-invalid": "Le remboursement ne pouvait pas être validé.",
+          "verkorting-invalid": "Le raccourcissement demandé n'est pas valable.",
+          "extension-not-permitted": "Type de document non valable.",
+          "document-does-not-exist": "Ce document n'existe plus.",
+          "document-not-uploaded": "Ce document ne peut pas être supprimé.",
+          "document-without-file": "Il y a un document incomplet.",
+          "gezinslid-niet-gevonden": "Aucune information trouvée concernant un membre de famille.",
+          "ophalen-aansluitingsaanvragen": "Une erreur s'est produite pendant le chargement des demandes d'affiliation.",
+          "ophalen-premie-inning-samenvatting": "Une erreur s'est produite pendant le chargement des encaissements primes.",
+          "brief-niet-betaald-vervaldatum-missing": "L'encaissement prime pour lequel une lettre \"non-payée\" sera rédigée n'a pas de date d'échéance.",
+          "no-file-uploaded": "Aucun document n'a été téléchargé.",
+          "uploaded-multiple-files": "Il n'est pas possible de télécharger plusieurs documents.",
+          "invalid-uploaded-document-info": "Une erreue s'est produite pendant le chargement du document.",
+          "update-verouderde-arbeider-versie": "Le SynergyID pour cet ouvrier n'est pas le plus récent.",
+          "update-verouderde-gezinslid-versie": "Le SynergyID pour ce membre de famille n'est pas le plus récent.",
+          "render-betaalwijzewerkgever-ongeldige-werkgever": "Il est impossible de rédiger une lettre du fait que les données de l'employeur sont non valables.",
+          "ongeldig-adres-arbeider": "_FR_De arbeider heeft geen volledig adres.",
+          "arbeider-niet-gevonden": "_FR_De arbeider werd niet gevonden.", 
+          "werklijsten-pieh-uitsluiting-bestaat-reeds": "_FR_De premie-inning die u probeert uit te sluiten is al uitgesloten",
+          "werklijsten-pieh-premie-inning-bestaat-niet": "_FR_De premie-inning die u probeert uit te sluiten bestaat niet",
+          "werklijsten-pieh-uitsluitingen-verwijderen-te-veel-parameters": "_FR_Er zijn te veel premie-inningen gelijktijdig uitgesloten. Probeer het met een kleiner aantal.",
+          "werklijsten-pieh-uitsluitingen-bestaan-niet": "_FR_De premie-inningen die u probeert in te sluiten zijn niet allemaal uitgesloten",
+          "werklijsten-pieh-premie-inning-is-geen-deel-van-werklijst": "_FR_De premie-inning is uitgesloten"
+        }
+      },
+      "info": {
+        "geen-aansluitingsaanvragen-gevonden": "Aucune demande d'affiliation trouvée",
+        "geen-premie-inningen-gevonden": "Aucun encaissement trouvé",
+        "geen-terugbetalingen-gevonden": "Aucun remboursement trouvé",
+        "geen-documenten-gevonden": "Aucun document trouvé",
+        "geen-betalingen-gevonden": "_FR_Er zijn geen betalingen gevonden",
+        "geen-aida-memo": "_FR_Er is geen AIDA-memo aanwezig",
+        "geen-aida-betaalinfo": "_FR_Er is geen AIDA-betaalinfo aanwezig",
+        "geen-aida-betalingen": "_FR_Er zijn geen AIDA-betalingen aanwezig"
+      }
+    },
+    "confirmation-popup": {
+      "opgelet": "Attention",
+      "wijzigingen-ongedaan": "Les modifications n'ont pas été sauvegardées. Vous voulez continuer?"
+    },
+    "documenten": {
+      "titel": "_FR_Documenten",
+      "buttons": {
+        "document-uploaden": "_FR_Document opladen"
+      },
+      "tabel": {
+        "bestandsnaam": "_FR_Bestandsnaam",
+        "extensie": "_FR_Extensie",
+        "creatiedatum": "_FR_Datum uploaden/aanmaken",
+        "bron": "_FR_Bron",
+        "documenttype": "_FR_Documenttype"
+      },
+      "document-uploaden": {
+        "titel": "_FR_Document opladen",
+        "documenttype": "_FR_Documenttype",
+        "documenttype-verplicht": "_FR__Gelieve een documenttype te kiezen",
+        "document-opladen": "_FR_Gelieve een document op te laden",
+        "uploaden": "_FR_Uploaden",
+        "annuleren": "_FR_Annuleren",
+        "document-type": {
+          "overschrijving": "_FR_Overschrijving",
+          "eerste_herinnering": "_FR_Eerste herinnering",
+          "tweede_herinnering": "_FR_Tweede herinnering",
+          "aanvraagformulier_gezinsleden": "_FR_Aanvraagformulier gezinsleden",
+          "antwoord_aanvraagformulier_gezinsleden": "_FR_Antwoord aanvraagformulier gezinsleden",
+          "opvragen_insznr": "_FR_Opvragen insznr",
+          "opvragen_verzekeringsattest": "_FR_Opvragen verzekeringsattest",
+          "bevestiging_annulatie": "_FR_Bevestiging annulatie",
+          "waarschuwingsbrief_medischplan": "_FR_Waarschuwingsbrief Medisch Plan",
+          "brief_gepensioneerden": "_FR_Brief gepensioneerden",
+          "betaalwijze_werkgever": "_FR_Betaalwijze werkgever",
+          "brief_niet_betaald": "_FR_Brief niet betaald",
+          "andere": "_FR_Andere",
+          "brief_laattijdig": "_FR_Brief Laattijdig",
+          "aansluitings_aanvraag_attest": "_FR_Verzekeringsattest"
+        }
+      },
+      "delete-confirmation-popup": {
+        "title": "_FR_Opgelet",
+        "message": "_FR_Je staat op het punt om het document '{0}' te verwijderen. Wil je verdergaan?"
+      },
+      "tooltips": {
+        "verwijder": "_FR_Verwijder {0}",
+        "download": "_FR_Download {0}",
+        "documenten-overzicht": "_FR_Overzicht van de documenten van deze arbeider"
+      }
+    },
+    "sociaalvoordeel": {
+      "attesten": {
+        "datum": "Date",
+        "title": "Attestations Avantage Social",
+        "geen-sv-attesten": "Pas d'ttestations Avantage Social",
+        "attest-status": {
+          "Gesimuleerd": "Simulé",
+          "TestRun": "Test Run",
+          "Uitgegeven": "Emis",
+          "Betaald": "Payé"
+        },
+        "motieven": {
+          "GeenAdres": "Pas d'adresse",
+          "OnvolledigAdres": "Adresse incomplète",
+          "Minimumbedrag": "Montant minimum pas atteint",
+          "GeenRecht": "Pas droit"
+        }
+      },
+      "attesten-table": {
+        "headers": {
+          "attestnummer": "N° de l'attestation",
+          "datumberekening": "Date calcul",
+          "datumuitgifte": "Date émission",
+          "prestaties": {
+            "gewerkte-dagen": "Travaillé",
+            "vakantie-dagen": "Jours de vacances",
+            "betaald-educatief-verlof": "congé éducation payé",
+            "rust-dagen": "Jours de repos",
+            "syndicale-vorming": "Congé syndical",
+            "weerverlet": "Intempéries",
+            "andere": "Autres",
+            "totaal-aantal-dagen": "Total"
+          },
+          "dagbedrag": "Montant journalier",
+          "totaalbedrag": "Montant total",
+          "status": "Statut",
+          "acties": "Actions"
+        }
+      },
+      "betalingen-table": {
+        "headers": {
+          "datum-verwerking": "Date de traitement",
+          "betaal-bestand": "Fichier de paiement",
+          "vakbond": "Syndicat",
+          "betaald-bedrag": "Montant payé",
+          "aanvaard-bedrag": "Montant accepté",
+          "geweigerd-bedrag": "Montant refusé",
+          "motief-weigering": "Motif de refus",
+          "betalingen": "Paiements"
+        },
+        "geen-betalingen-gevonden": "Aucun fichier de paiement n'a été trouvé.",
+        "motieven-weigering": {
+          "Onbekend": "",
+          "Geen": "",
+          "TeVeelBetaald": "Payé de trop.",
+          "WasReedsVolledigBetaald": "Déjà totalement payé.",
+          "BetalingsperiodeIsVerjaard": "Année prescrit.",
+          "InvalidInsz": "Pas de lien entre année, attestation et NISS",
+          "InszAttestNummerSociaalVoordeelJaarNietGekend": "Pas de lien entre année, attestation et NISS"
+        }
+      },
+      "sociaal-voordeel-documenten": {
+        "documenten": "Documents",
+        "duplicaat-aanvragen": "Demander Duplicata",
+        "datum-uitgifte": "Date Emission",
+        "creatie-datum": "Date de création",
+        "bestandsnaam": "Nom de fichier",
+        "type": "Type",
+        "status": "Statut",
+        "aanvrager": "Demandeur",
+        "download": "Télécharger",
+        "origineel": "Original",
+        "duplicaat": "Duplicata",
+        "retour": "Retour",
+        "verstuurd": "Envoyé",
+        "voordeel-aanvrager": {
+          "ACV": "CSC",
+          "ABVV": "FGTB",
+          "ACLVB": "CGSLB",
+          "Werknemer": "Travailleur",
+          "Constructiv": "Constructiv"
+        },
+        "validation": {
+          "success-message": "Duplicata créé avec succes",
+          "error-messages": {
+            "geen-adres": "_FR_Kan niet gedupliceerd worden omdat attest geen adres heeft",
+            "onvolledig-adres": "Ne peut être duplicé car l'attestation n'a pas d'addresse complète",
+            "attest-verjaard": "Ne peut être duplicé car l'attestation est prescrit",
+            "attest-betaald": "Ne peut être duplicé car l'attestation est déjà payée"
+          }
+        },
+        "tooltip": {
+          "aidafile-niet-dupliceren": "_Kan niet gedupliceerd worden omdat attest uit Aida komt"
+        }
+      },
+      "parameters-error": "_FR_Fout bij het ophalen van de parameters."
+    },
+    "legitimatiekaart-op-aanvraag": {
+      "title": "Vue d'ensemble de carte de légitimation sur demande",
+      "all": "Toutes",
+      "dossiers": "dossiers",
+      "zoeken": "chercher...",
+      "creatiedatum": "Date de création",
+      "refertejaar": "Année de référence",
+      "ontvangen-op": "Reçu le",
+      "type-aanvraag": "Type de demande",
+      "status": "Statut",
+      "persoon": "Personne",
+      "acties": "Actions",
+      "nieuwe-aanvraag": "Nouvelle demande",
+      "tabs": {
+        "aanvraag": "Demande",
+        "simulatie": "Simulation",
+        "resultaat": "Résultat",
+        "pdok-feedback": " Feedback OPOC"
+      },
+      "dossier-filters": {
+        "na-te-kijken": "A contrôler",
+        "klaar-voor-pdok": "Prêt pour l’OPOC",
+        "bij-pdok": "A l’OPOC",
+        "klaar-voor-uitgifte": "Prêt pour émission",
+        "klaar-voor-weigering": "Prêt pour refus",
+        "openstaand": "Ouvert",
+        "afgesloten": "Clos",
+        "ingescand": "Scanné"
+      },
+      "dossier-acties": {
+        "naar-pdok": "Vers l’OPOC",
+        "print": "Imprimer",
+        "preview-legitimatiekaart": "Aperçu carte de légitimation",
+        "preview-brief-weigering": "Apercu lettre refus",
+        "overrule": "Dépasser",
+        "wijzig": "Modifier",
+        "weiger": "Refuser",
+        "aanvaard": "Accepter",
+        "onder-voorbehoud": "Accepter sous réserve",
+        "bewerken": "Modifier dossier",
+        "annuleer": "Annuler",
+        "exportcsv": "Export CSV ",
+        "tooltips": {
+          "print": "Impresion CL / Refus",
+          "print-voorbeeld": "Example d’impression",
+          "pdok-feedback-aanvaard-onder-voorbehoud": "Feedback OPOC Accepté sous réserve ",
+          "pdok-feedback-weiger": "Feedback OPOC  Refusé"
+        },
+        "workflow-error": "_FR_Er is iets foutgelopen bij het behandelen van de workflow"
+      },
+      "resultaat": {
+        "voeg-toekenning-toe": "Ajouter un octroi",
+        "voeg-weigering-toe": "Ajouter un refus",
+        "toekenning": "Octroi",
+        "weigering": "Refus",
+        "close": "Clos",
+        "refertejaar": "AR",
+        "motief-weigering": "Motif de refus",
+        "begingeldigheidsdatum": "Début date de validation",
+        "eindgeldigheidsdatum": "Fin date de validation  ",
+        "type-gelijkstelling": "Type d’assimilation",
+        "reden-weigering": "Raison refus",
+        "kredietdagen": "Jours de crédit",
+        "nuttigekaarttype": "Type de carte utile",
+        "overrule": "Dépasser",
+        "download-pdf": "Télécharger pdf",
+        "weigeringsredenen": "Motifs de refus",
+        "reden": "_FR_Reden",
+        "motief": "_FR_Motief",
+        "vrije-tekst": "_FR_Vrije tekst",
+        "toevoegen": "_FR_Toevoegen",
+        "memo": "_FR_Memo",
+        "uitwisselinginterui": {
+          "uitwisselingmetinterui": "_FR_Uitwisseling met interUI",
+          "verstuurd": "_FR_Verstuurd",
+          "ontvangen": "_FR_Ontvangen",
+          "ticketnummer": "_FR_Ticketnummer",
+          "verstuurd-via-aida": "_FR_Verstuurd via Aida"
+        },
+        "meldingen": {
+          "foutmelding-gelijkstelling-type": "_FR_Kan gelijkstelling types niet laden. Gelieve een administrator te contacteren.",
+          "foutmelding-weigeringsredenen": "_FR_Kan weigeringsredenen niet laden. Gelieve een administrator te contacteren.",
+          "foutmelding-weigeringsmotieven": "_FR_Kan weigeringsmotieven niet laden. Gelieve een administrator te contacteren.",
+          "foutmelding-dossier-opslaan": "_FR_Kan dossier niet opslaan. Gelieve een administrator te contacteren.",
+          "foutmelding-dossier-preview": "_FR_Kan geen preview van het dossier genereren. Gelieve een administrator te contacteren."
+        }
+      },
+      "pdok-feedback": {
+        "aanvaard": "Accepté OPOC",
+        "aanvaard-onder-voorbehoud": "Accepté OPOC sous réserve",
+        "geweigerd": "Refusé OPCOC",
+        "feedback": "Feedback",
+        "uitleg-weiger": "Vous aller refuser ce attest. Merci de noter la raison dans le mémo.",
+        "uitleg-aanvaard-onder-voorbehoud": " Vous aller accepter ce attest sous réserve. Merci de noter la raison dans le mémo."
+      },
+      "bevestiging": {
+        "naar-pdok": "Etes-vous sûre d’envoyer tous les dossiers à l’OPOC.",
+        "pdok-ok": " Etes-vous sûre de confirmer tous ces dossiers?",
+        "print": " Etes-vous sûre d’imprimer tous ces dossiers?",
+        "annuleren": "Êtes-vous certain ?"
+      },
+      "annuleren": {
+        "geannuleerd": "Annulé",
+        "uitleg-annuleren": "Annuler le mémo",
+        "memo": "Memo"
+      }
+    },
+    "alternerend-leren": {
+      "overzicht": "FR_Overzicht",
+      "wel-traject": "FR_Is bezig met Alternerend Leren",
+      "geen-traject": "FR_Deze persoon heeft geen Alternerend Leren traject",
+      "status-updated": "FR_Status succesvol gewijzigd",
+      "new-bib-started": "FR_Nieuwe BiB succesvol gestart",
+      "new-bib-error": "FR_BiB starten mislukt",
+      "retry-document-success": "FR_Opnieuw geprobeerd",
+      "retry-document-failed": "FR_Er ging iets mis",
+      "refreshTraject": "FR_Refresh traject",
+      "basis-data": {
+        "startdatum": "FR_Startdatum",
+        "werkgever": "FR_Werkgever",
+        "trajectEinddatum": "FR_Einddatum",
+        "opslaan": "FR_Opslaan",
+        "restart": "FR_Herstart",
+        "restarted": "FR_Traject is herstart",
+        "restart-popup": {
+          "titel": "FR_Herstarten van AL Traject",
+          "restart-date": "FR_Herstartdatum"
+        },
+        "einddatumVoorStartdatum": "FR_Einddatum kan niet voor startdatum liggen",
+        "invalid-Einddatum": "FR_Gelieve een correcte einddatum in te geven",
+        "einddatum-popup": {
+          "zeker": "FR_Bent u zeker?",
+          "ja-ikBenZeker": "FR_Ja, ik ben zeker",
+          "nee-vergissing": "FR_Nee, ik heb me vergist",
+          "message-success": "FR_Einddatum succesvol opgeslagen"
+        }
+      },
+      "werkgever-historiek": {
+        "alle-werkgevers": "FR_Alle werkgevers: "
+      },
+      "alternerend-leren-overzicht": {
+        "jaar": "FR_Jaar",
+        "startdatum": "FR_Startdatum",
+        "einddatum": "FR_Einddatum",
+        "gebruikte-prestaties": "FR_Gebruikte prestaties",
+        "status": "FR_Status",
+        "acties": "FR_Acties",
+        "bevestigen": "FR_Afsluiten met Premie",
+        "weigeren": "FR_Afsluiten zonder Premie",
+        "verwerken": "FR_Verwerken met Premie",
+        "overrule": "FR_Overrule",
+        "bib-verwerk-met-instroompremie": "FR_Instroompremie berekenen",
+        "bib-verwerk-met-bouwInGroeiPremie": "FR_BouwInGroeiPremie berekenen",
+        "status-Bezig": "FR_Bezig",
+        "status-Succesvol": "FR_Succesvol",
+        "status-RechtVerworven": "FR_Recht op premie verworven",
+        "status-AfgeslotenMetPremie": "FR_Afgesloten met Premie",
+        "status-AfgeslotenZonderPremie": "FR_Afgesloten zonder Premie",
+        "status-BevestigdRechtVerloren": "FR_Recht op premie bevestigd verloren",
+        "status-GeweigerdRechtVerloren": "FR_Recht op premie geweigerd verloren",
+        "status-Open": "FR_Open",
+        "status-VerwerktMetInstroomPremie": "FR_Verwerkt met instroompremie",
+        "status-VerwerktZonderPremie": "FR_Verwerkt zonder premie",
+        "status-VerwerktMetBouwInGroeiPremie": "FR_Verwerkt met BouwIngroeiPremie",
+        "status-VerwerktMetBeidePremies": "FR_Verwerkt met beide premies",
+        "brief-type": "FR_Brieftype",
+        "brief-aanmaakdatum": "FR_Aanmaakdatum",
+        "brief-taal": "FR_Taal",
+        "brief-aanmaken-geslaagd-nietgeslaagd": "FR_Aanmaken geslaagd/niet geslaagd",
+        "brief-aanmaken-true": "FR_Succesvol aangemaakt",
+        "brief-aanmaken-false": "FR_Aanmaken mislukt",
+        "bib-toevoegen": "FR_Nieuwe BiB starten",
+        "retry-document": "FR_Opnieuw proberen",
+        "bouwInGroeiPremieAllocated": "FR_BouwInGroeiPremie uitgerijkt.",
+        "bouwInGroeiPremieNotAllocated": "FR_De BouwInGroeiPremie kon niet worden uitgerijkt.",
+        "overzicht-detail-prestatie": {
+          "kwartaal": "FR_Kwartaal",
+          "gebruikte-prestaties": "FR_Gebruikte prestaties",
+          "verhouding": "FR_Verhouding",
+          "kwartaalprestaties": "FR_Kwartaalprestaties"
+        },
+        "accept-premie-popup": {
+          "titel": "FR_Premie-uitbetaling",
+          "no-bankaccount-error": "FR_Geen rekeningnummer gevonden.",
+          "payment-failed": "FR_Uitbetaling kon niet worden uitgevoerd",
+          "payment-succeed": "FR_Uitbetaling correct doorgestuurd naar de bevoegde instantie",
+          "rekeningnummer": "FR_Rekeningnummer",
+          "accepteer": "FR_Accepteer",
+          "annuleer": "FR_Annuleer"
+        },
+        "new-bib-popup": {
+          "titel": "FR_Nieuw BiB traject",
+          "werkgever": "FR_Synergy werkgever",
+          "startdate": "FR_Startdatum",
+          "verzend": "FR_Verzend"
+        },
+        "overrule-popup": {
+          "titel": "FR_Overrulen van AL jaar",
+          "ok": "FR_Bevestig",
+          "annuleer": "FR_Annuleer",
+          "commentaar": "FR_Commentaar",
+          "beslissingsdatum": "FR_Beslissingsdatum",
+          "begeleidendeTekst": "FR_Je probeert dit jaar met Premie af te sluiten, hoewel het recht op premie nog niet verworven is. Gelieve hieronder je argumentatie mee te geven en de beslissingsdatum. Kies Cancel als je het jaar toch niet wil overrulen.",
+          "message-success": "FR_Premie succesvol uitgereikt door overruling",
+          "message-error": "FR_Er ging iets mis",
+          "message-dateInFuture": "FR_De datum die u meegeeft ligt in de toekomst. Dit is niet mogelijk."
+        }
+      },
+      "alternerend-leren-premie-overzicht": {
+        "premie": "FR_Premie",
+        "nettobedrag": "FR_Nettobedrag",
+        "berekend-op": "FR_Berekend op",
+        "status": "FR_Status",
+        "betalingsopdracht": "FR_Betalingsopdracht",
+        "status-Calculated": "FR_Premie berekend",
+        "status-Payed": "FR_Premie uitbetaald",
+        "status-PayedManually": "FR_Manueel betaald",
+        "accept-premie": "FR_Accepteer premie",
+        "nameForPremie-JaarPremie1": "FR_Leerpremie 1",
+        "nameForPremie-JaarPremie2": "FR_Leerpremie 2",
+        "nameForPremie-BiBInstroomPremie": "FR_Instroompremie",
+        "nameForPremie-BiBBouwInGroeiPremie": "FR_BouwInGroeiPremie",
+        "brutoPremie": "FR_Bruto premie",
+        "verhoogdBruto": "FR_Verhoogd bruto",
+        "persoonlijkeBijdrageRSZ": "FR_Persoonlijke bijdrage RSZ",
+        "patronaleBijdrageRSZ": "FR_PatronaleBijdrageRSZ",
+        "bijzondereBijdrageFSO": "FR_Bijzondere bijdrage FSO",
+        "bijzondereBijdrage859": "FR_Bijzondere bijdrage 859",
+        "bijdrageVakantieFonds": "_Bijdrage vakantiefonds"
+      },
+      "traject-status": {
+        "status-traject": "FR_Status traject"
+      },
+      "uitgifte": {
+        "titel": "FR_Overzicht Alternerend leren",
+        "persoon": "FR_Persoon",
+        "startdatum": "FR_Startdatum",
+        "aanmaakdatum": "FR_Aanmaakdatum",
+        "jaarNumber": "FR_AL jaar",
+        "prestaties": "FR_Laatste AL jaar",
+        "status": "FR_Status laatste AL jaar",
+        "bib": "FR_BiB gestart",
+        "failed-documents": "FR_Gefaalde documenten",
+        "onbetaalde-premies": "FR_Onbetaalde premies",
+        "werkgever": "FR_Huidige werkgever",
+        "zoeken": "FR_Zoeken...",
+        "alle": "FR_Alle",
+        "ja": "Oui",
+        "nee": "Non",
+        "export-excel": "FR_Excel export",
+        "export": "FR_Export",
+        "cancel": "FR_Annuleer",
+        "start-region": "FR_Start postcode",
+        "end-region": "FR_Tot postcode",
+        "export-titel": "FR_Traject Excel Export"
+      }
+    }
+  },
+  "overzicht": {
+    "hospi": {
+      "aansluitings-aanvragen": {
+        "titel": "Demandes d'affiliation",
+        "tabel": {
+          "persoon": "Personne",
+          "synergyid": "SynergyId",
+          "status": "Statut",
+          "acties": "Actions"
+        }
+      },
+      "premie-inningen": {
+        "titel": "Encaissement primes",
+        "tabel": {
+          "persoon": "Personne",
+          "synergyid": "SynergyId",
+          "premie": "Prime",
+          "status": "Statut",
+          "betaaldatum": "Date limite de paiement",
+          "acties": "Actions"
+        },
+        "info": {
+          "geen-aansluitings-aanvragen-gevonden": "Aucune demande d'affiliation n'est trouvée",
+          "geen-premie-inningen-gevonden": "Aucun encaissement prime n'est trouvé"
+        }
+      }
+    }
+  },
+  "gebruikersprofiel": {
+    "titel": "Profil d'utilisateur",
+    "toast": {
+      "opslaan-gelukt": "Votre profil d'utilisateur a été enregistré avec succès.",
+      "opslaan-mislukt": "Votre profil d'utilisateur ne peut être enregistré."
+    },
+    "algemeen": {
+      "titel": "Général",
+      "taal": "Langue",
+      "nl": "Néerlandais",
+      "fr": "Français"
+    },
+    "email-subscriptions": {
+      "titel": "Paramètres courriel",
+      "abonnementen": {
+        "titel": "Abonnements",
+        "SociaalVoordeelBetalingenNotificationMailSubscription": "Paiements Avantage Social",
+        "WerkloosheidBestandWachtendMailSubscription": "Fichier chômage en attente",
+        "WerkloosheidBestandGesimuleerdMailSubscription": "Fichier chômage simulé",
+        "WerkloosheidBestandTestRunAfgerondMailSubscription": "Testrun fichier chômage complété",
+        "WerkloosheidBestandUitgegevenMailSubscription": "Fichier chômage émis",
+        "UnemploymentFileImportFailedMailSubscription": "Echec de l'importation du fichier chômage"
+      }
+    },
+    "rechten": {
+      "titel": "_FR_Rechten",
+      "rollen": "_FR_Rollen",
+      "permissies": "_FR_Permissies"
+    },
+    "leftnav": {
+      "algemeen": "Général",
+      "emails": "Courriels",
+      "rechten": "_FR_Rechten"
+    }
+  },
+  "ctx": {
+    "debtor-page": {
+      "startDate": "_Start Date",
+      "currentRanking": "_Current Ranking",
+      "status": "_Status",
+      "lastStatusChange": "_Last Status Change",
+      "debtPaid": "_Paid till this day",
+      "debtLeft": "_Debt left",
+      "bankAcc": "_Bank account",
+      "referenceNumber": "_Reference number",
+      "closedComment": "Commentaire",
+      "bankAccounts": "_bankAccountsFR",
+      "noBankAccounts": "_no bank accountsFR",
+      "updateBankAccount": "_Update bank account"
+    },
+    "dossier-statuses": {
+      "active": "Actif",
+      "closed": "Fermé",
+      "in_suspension": "Suspension",
+      "in_opposition": "Opposition"
+    },
+    "person-search": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "houseNumber": "Numéro de maison",
+      "street": "Rue",
+      "search": "Chercher",
+      "persons": "Des personnes",
+      "results": "resultaten",
+      "logDebtor": "Registre débiteur",
+      "noResults": "Pas de résultats de recherche",
+      "noData": "Les données recherchées n'existent pas",
+      "personNotInConstructiv": "Cette personne ne fait pas partie de Constructiv",
+      "ctx-known": "CTX connu"
+    },
+    "company-search": {
+      "companyName": "Cherchez un nom d'entreprise",
+      "companyNumber": "Cherchez une entreprise sur base du numéro BCSS",
+      "companySSN": "Cherchez une entreprise sur base du numéro ONSS",
+      "country": "Pays",
+      "companies": "_Companies",
+      "companyNameResults": "Nom d'entreprise",
+      "companyNumberResults": "Numéro BCSS",
+      "companySSNResults": "Numéro ONSS"
+    },
+    "debtor-details": {
+      "insz": "NISS",
+      "city": "Ville",
+      "postCode": "Code postal",
+      "gender": "Sexe"
+    },
+    "creditor-details": {
+      "street": "_Street",
+      "houseNumber": "_House nr.",
+      "box": "_Box"
+    },
+    "dossier-close-modal": {
+      "closeButton": "_closeFr",
+      "successMessage": "_successFR",
+      "commentLabel": "Commentaire",
+      "errorMessage": "_errorFR",
+      "saveButton": "Sauver"
+    },
+    "bank-account-update-modal": {
+      "successMessage": "_Bank account successfully updated",
+      "errorMessage": "_Bank account could not be updated"
+    },
+    "dossier-wizard-form": {
+      "firstNoticeType": "Première notification",
+      "firstNoticeDate": "Date du premier avis",
+      "dossierType": "Type de dossier",
+      "creditorType": "Type de créancier",
+      "debtAmount": "Montant de la dette",
+      "comment": "Commentaire",
+      "dossierAssigned": "Vous avez assigné un dossier avec succès.",
+      "Individual": "Personne physique",
+      "LegalEntity": "Personne morale",
+      "DebtMediation": "Médiation de dettes",
+      "Bankruptcy": "Faillite ordinaire",
+      "ProtectingDeduction": "Saisie conservatoire",
+      "ExecutableDeduction": "Saisie exécution",
+      "WageTransfer": "Cessation de rémunération",
+      "TemporaryAdministration": "Administration provisoire",
+      "BudgetAuthorization": "Autorisation budgétaire",
+      "Verdict": "Jugement",
+      "CourtLetter": "Lettre de justice",
+      "BailifNotification": "Exploit de huissier",
+      "WarrantFromFps": "Mandat",
+      "IntentionToWageTransfer": "Intention d'exécuter une cessation de rémunération ",
+      "Agreement": "Accord",
+      "Other": "Autre",
+      "notSelected": "---",
+      "creditorRef": "_Creditor Reference"
+    },
+    "error": {
+      "sameBankAccount": "_Bank account is the same as previous"
+    },
+    "benefitNotification": {
+      "header": "_Benefit notification",
+      "debtor": "_Debtor",
+      "benefitType": "_Benefit type",
+      "benefitName": "_Benefit name",
+      "benefitAmount": "_Amount",
+      "saveButton": "_Save",
+      "ReplacementIncome": "_Replacement income",
+      "SalaryIncome": "_Salary income",
+      "PROM": "_PROM",
+      "LAZI": "_LAZI",
+      "SWT": "_SWT",
+      "BAVV": "_BAVV",
+      "VAKI": "_VAKI",
+      "VAKP": "_VAKP",
+      "VAKW": "_VAKW",
+      "RD": "_RD",
+      "FID": "_FID",
+      "INT": "_INT"
+    },
+    "dossiers": "Dossiers",
+    "linkToDossier": "Lien vers dossier",
+    "searchPersons": "Recherche de personne",
+    "searchCompanies": "Cherchez une entreprise",
+    "inbox": "Inbox",
+    "emailPreview": "Aperçu de messagerie",
+    "unread": "Nouveau",
+    "synergyId": "_SynergyId",
+    "registerDebtor": "Registre débiteur",
+    "createDossier": "Création nouveau dossier",
+    "next": "Suivant",
+    "previous": "Retour",
+    "complete": "Fin",
+    "Male": "Mâle",
+    "Female": "Femelle",
+    "true": "Oui",
+    "false": "Non",
+    "dateCreated": "Date de création",
+    "cancelSearch": "Annuler",
+    "officialLanguage": "Langue",
+    "contactTelephone": "Téléphone",
+    "includeClosed": "Inclure des dossiers fermés",
+    "dossierListHeader": "Veuillez sélectionner un dossier ou continuez pour créer un nouveau dossier",
+    "creditorAmount": "_Creditor Amount",
+    "debtorAmount": "_Debtor Amount",
+    "debtDistribution": "_Debt Distribution",
+    "redirect": "_redirectFR"
+  },
+  "finance": {
+    "address": {
+      "country": "Pays",
+      "houseNumber": "Numéro de maison",
+      "municipality": "Commune",
+      "postcode": "Code postal",
+      "street": "Rue",
+      "box": "Boîte",
+      "city": "Ville"
+    },
+    "common": {
+      "account": "Compte",
+      "address": "Adresse",
+      "amount": "Montant",
+      "amountBetween": "Montant entre",
+      "amountFrom": "Montant de",
+      "amountPaid": "Montant payé",
+      "amountTo": "Montant à",
+      "applyngFilters": "Appliquer des filtres...",
+      "bankAccount": "Numéro de compte",
+      "cancel": "Annuler",
+      "date": "Date",
+      "dateBetween": "Date entre",
+      "dateFrom": "Date de",
+      "dateTo": "Date à",
+      "details": "Détails",
+      "filter-message": "Trop de résultats, utilisez des filtres plus spécifiques.",
+      "filters": "Filtres",
+      "ibanError": "Compte bancaire n'est pas au format IBAN",
+      "link": "Lier",
+      "name": "Nom",
+      "noData": "Pas de données",
+      "ok": "OK",
+      "pageSize": "Taille de la page",
+      "reference": "Référence",
+      "referenceError": "Référence invalide",
+      "required": "Ce champ est requis",
+      "status": "Statut",
+      "structured": "Structuré",
+      "success": "Le paiement a été envoyé à FTi",
+      "unlink": "Déconnecter"
+    },
+    "company": {
+      "company": "Employeur",
+      "companyId": "Numéro BCE",
+      "socialSecurityNumber": "Numéro ONSS"
+    },
+    "debt": {
+      "canceled": "Annulé",
+      "canceled-all": "Tous",
+      "canceled-only": "Seulement annulé",
+      "debtDetails": "Détails de la dette",
+      "debts": "Dettes",
+      "noLinkedDeposits": "Pas de dépôts liés",
+      "not-canceled": "Non annulé",
+      "synergyId": "Dossier"
+    },
+    "deposit": {
+      "address": "Adresse",
+      "depositDetails": "Détails de la dette",
+      "depositParts": "Partie dépôt",
+      "deposits": "Dépôts",
+      "information": "Information",
+      "noLinkedDebts": "Pas de dettes liées",
+      "reimburse": "Rembourser",
+      "forward": "Transférer",
+      "waiting-action": "En attente",
+      "split": "Séparer"
+    },
+    "dossier-search-modal": {
+      "search-dossier": "Rechercher dossier",
+      "next": "Suivant",
+      "not-found": "Pas trouvé"
+    },
+    "generate-dossier-modal": {
+      "generate-dossier": "Générer un dossier",
+      "next": "Suivant"
+    },
+    "error": {
+      "InvalidDepositStatusException": "Ce dépôt ne peut être remboursé",
+      "InvalidDebtStatusException": "La dette liée doit être annulée avant que ce dépôt puisse être remboursé",
+      "DepositAlreadyLinkedException": "Seul un dépôt découplé peut être lié à une dette",
+      "somethingWentWrong": "Quelque chose a mal tourné, réessayez votre action précédente",
+      "FtiReferenceValidationFailedException": "La référence saisie n'était pas correcte, réessayez",
+      "FtiSynergyIdValidationException": "SynergyID saisie n'est pas correcte, réessayez",
+      "InvalidOutboundPaymentStatusException": "Seuls les paiements échoués et annulés peuvent être réessayés",
+      "MissingRequiredFieldException": "{{propertyName}} est requis",
+      "InvalidIbanException": "Format de compte bancaire invalide"
+    },
+    "propertyRequiredError": {
+      "CounterPartName": "Nom",
+      "CounterPartSynergyId": "Dossier",
+      "CounterPartIban": "Numéro de compte",
+      "Communication": "Référence"
+    },
+    "person": {
+      "first-name": "Prénom",
+      "insz": "INSS",
+      "last-name": "Nom",
+      "person": "Personne",
+      "type": "Type"
+    },
+    "reimburse": {
+      "error": "Erreur"
+    },
+    "statuses": {
+      "all": "Tous",
+      "forwarded": "Transféré",
+      "ignored": "Ignoré",
+      "linked": "Lié",
+      "notlinked": "Non lié",
+      "reimbursed": "Remboursé",
+      "reimbursement_scheduled": "Remboursement prévu",
+      "waiting": "En attente",
+      "waiting_for_payment": "En attente de paiement",
+      "paid": "Payé",
+      "forfeited": "Expiré",
+      "no_follow_up": "Pas de suivi"
+    },
+    "benefits": {
+      "all": "Tous",
+      "hospi": "Service Hospi",
+      "tawv": "Service RICC",
+      "tawv-aida": "RICC (AIDA)",
+      "al": "Formation en alternance"
+    },
+    "outbound-payment-statuses": {
+      "all": "Tous",
+      "failed": "Échoué",
+      "sent": "Envoyé",
+      "scheduled": "Prévu",
+      "open": "Ouvert",
+      "cancelled": "Annulé",
+      "sent_to_bank": "Envoyé à la banque",
+      "paid": "Payé",
+      "proposed": "Proposé"
+    },
+    "retry-payment": "Réessayer",
+    "outbound-payments": "Paiements sortants",
+    "benefit": "Avantage",
+    "payment-receiver": {
+      "title": "Bénéficiaire",
+      "change": "Modifier le bénéficiaire",
+      "search": "Rechercher le bénéficiaire",
+      "no-payment": "Aucun bénéficiaire sélectionné",
+      "no-payment-hint": "Le bénéficiare doit être sélectionné"
+    }
+  },
+  "upload": {
+    "title": "Télécharger",
+    "rsvz": "INASTI",
+    "vkb": "CCB",
+    "dropzone": {
+      "drop-file": "_FR_Klik of sleep bestanden hier om deze op te laden",
+      "drop-success-message": "_FR_Het bestand is succesvol opgeladen",
+      "drop-error-message": "_FR_Er is iets fout gelopen bij het opladen van het bestand"
+    },
+    "rsvz-dropzone": {
+      "title": "INASTI"
+    },
+    "vkb-dropzone": {
+      "title": "CCB"
+    }
+  },
+  "taken": {
+    "taken": "_FR_Taken",
+    "hospi": {
+      "hospitalisatie": "_FR_Hospitalisatie",
+      "werklijsten": {
+        "titel": "_FR_Werklijsten",
+        "tabel": {
+          "headers": {
+            "beschrijving": "_FR_Beschrijving",
+            "aantal": "_FR_Aantal"
+          },
+          "items": {
+            "printing-brieven": "_FR_Brieven klaar om af te drukken",
+            "pieh": "_FR_Premie-inningen klaar voor eerste herinnering",
+            "verstreken-waarschuwingstermijn": "_FR_Premie-inningen klaar voor tweede herinnering",
+            "klaar-voor-afsluiting": "_FR_Premie-inningen klaar voor afsluiting",
+            "laattijdige-aansluitingsaanvragen": "_FR_Laattijdige aansluitingsaanvragen",
+            "klaar-voor-verderzetting": "_FR_Aansluitingsaanvragen klaar voor verderzetting",
+            "overleden-actieve-aansluiting": "_FR_Overleden personen met actieve aansluiting"
+          }
+        },
+        "printing": {
+          "printen": "_FR_Printen",
+          "te-printen-documenten": "_FR_Te printen documenten",
+          "eerste-overschrijving": "_FR_Eerste overschrijving:",
+          "eerste-waarschuwing": "_FR_Eerste waarschuwing:",
+          "tweede-waarschuwing": "_FR_Tweede waarschuwing:",
+          "niet-betaald": "_FR_Niet betaald verklaring:",
+          "laattijdigheid": "_FR_Laattijdigheid verklaring ",
+          "totaal-aantal": "_FR_Totaal aantal:",
+          "geen-documenten": "_FR_Geen documenten om te printen",
+          "buttons": {
+            "refresh-data": "_FR_Refresh data",
+            "print": "_FR_Print",
+            "Acto": "_FR_Acto",
+            "Local": "_FR_Lokaal"
+          },
+          "toast": {
+            "documenten-printen-success": "_FR_Het printen van de documenten is succesvol gestart",
+            "documenten-printen-error": "_FR_Er is een fout gebeurt tijdens het printen van de documenten"
+          }
+        },
+        "pieh": {
+          "title": "_FR_Premie-inningen klaar voor eerste herinnering",
+          "totaal": "_FR_Totaal:",
+          "included-header": "_FR_Zoekresultaten",
+          "excluded-header": "_FR_Uitgesloten van bulkverwerking",
+          "naam-arbeider": "_FR_Naam",
+          "voornaam-arbeider": "_FR_Voornaam",
+          "insz-arbeider": "_FR_INSZ arbeider",
+          "referentie-inning": "_FR_Referentie",
+          "bedrag-premie": "_FR_Premie",
+          "reeds-betaald-bedrag": "_FR_Reeds betaald",
+          "nog-te-betalen-bedrag": "_FR_Nog te betalen",
+          "go-to-linked-arbeider": "_FR_Naar het dossier",
+          "op-insz": "_FR_Filteren op INSZ",
+          "include-pieh": "_FR_Insluiten voor bulkverwerking",
+          "exclude-pieh": "_FR_Uitsluiten van bulkverwerking",
+          "exclude-multiple": "_FR_Meerdere uitsluiten",
+          "action": "_FR_- Actie -",
+          "send-first-reminder": "_FR_Verstuur eerste herinnering",
+          "send-first-reminder-bulk": "_FR_Verstuur eerste herinnering bulk",
+          "cancel": "_FR_Annuleren",
+          "no-premie-inning-for-criteria": "_FR_Er zijn geen premie-inningen voor de zoekcriteria gevonden",
+          "no-uitsluitingen-for-criteria": "_FR_Er zijn geen uitsluitingen voor de zoekcriteria gevonden",
+          "no-search-criteria": "_FR_Gelieve eerst een zoekopdracht uit te voeren",
+          "no-exclusions": "_FR_Er zijn nog geen premie-inningen uitgesloten van de bulkverwerking",
+          "excel-download": "_FR_Lijst (Excel)",
+          "exclude-multiple-pieh-modal": {
+            "title": "_FR_Meerdere uitsluiten",
+            "body-text": "_FR_Sluit meerdere premie-inningen in één keer uit van bulkverwerking. Gelieve elke INSZ op een nieuwe lijn te plaatsen.",
+            "exclude": "_FR_Uitsluiten"
+          }
+        }
+      },
+      "pop-up":{
+        "premie-inning-annuleer-confirm-title": "Opgelet",
+        "premie-inning-annuleer-confirm-message": "U staat op het punt om deze premie-inning te annuleren. Bent u zeker?",
+        "werklijsten-bulk-confirm-title": "Opgelet",
+        "werklijsten-bulk-confirm-message": "U staat op het punt om een bulkverwerking te starten. Bent u zeker?",
+        "werklijsten-parameters-required": "Parameters vereist"
+      },
+      "exception-key": {
+        "general": "Une erreur s'est produite.",
+        "insz-invalid": "_FR_Eén of meerdere ingevoerde INSZ-nummers zijn niet geldig."
+      },
+      "toastr": {
+        "get-filtered-pieh-error": "_FR_Er is een fout opgetreden tijdens het zoeken naar premie-inningen",
+        "get-excluded-pieh-error": "_FR_Er is een fout opgetreden tijdens het ophalen van de uitgesloten premie-inningen",
+        "include-pieh-success": "_FR_De premie-inning is succesvol ingesloten",
+        "include-pieh-error": "_FR_Er is een fout opgetreden tijdens het insluiten van de premie-inning",
+        "exclude-pieh-success": "_FR_De premie-inning is succesvol uitgesloten",
+        "exclude-multiple-pieh-success": "_FR_De premie-inningen zijn succesvol uitgesloten",
+        "exclude-pieh-error": "_FR_Er is een fout opgetreden tijdens het uitsluiten van de premie-inning",
+        "exclude-pieh-by-insz-success": "_FR_Eén of meerdere premie-innningen zijn succesvol uitgesloten",
+        "exclude-pieh-by-insz-error": "_FR_Er is fout opgetreden tijdens het uitsluiten van één of meerdere premie-inningen",
+        "premie-inning-annuleer-succes": "_FR_De premie-inning is succesvol geannuleerd",
+        "premie-inning-annuleer-error": "_FR_Er is een fout opgetreden tijdens het annuleren van de premie-inning",
+        "premie-inning-verstuur-eerste-herinnering-succes": "_FR_De eerste herinnering werd successvol verstuurd",
+        "premie-inning-verstuur-eerste-herinnering-error": "_FR_Er is een fout opgetreden tijdens het versturen van de eerste herinnering",
+        "werklijsten-bulk-succes": "_FR_Bulkverwerking met succes opgestart",
+        "werklijsten-bulk-error": "_FR_Er is een fout opgetreden tijdens het starten van de bulkverwerking"
+      }
+    }
+  },
+  "landcodes": {
+    "Nis101": "Albanie",
+    "Nis102": "Andorre",
+    "Nis103": "Allemagne (Rép.féd.)",
+    "Nis104": "Allemagne (Rép. dém.)",
+    "Nis105": "Autriche",
+    "Nis106": "Bulgarie",
+    "Nis107": "Chypre",
+    "Nis108": "Danemark",
+    "Nis109": "Espagne",
+    "Nis110": "Finlande",
+    "Nis111": "France",
+    "Nis112": "Grande-Bretagne",
+    "Nis113": "Luxembourg (Grand-Duché)",
+    "Nis114": "Grèce",
+    "Nis115": "Hongrie ( Rép. )",
+    "Nis116": "Irlande /Eire/",
+    "Nis117": "Islande",
+    "Nis118": "Liechtenstein",
+    "Nis119": "Malte",
+    "Nis120": "Monaco /Principauté/",
+    "Nis121": "Norvège",
+    "Nis122": "Pologne ( Rép. )",
+    "Nis123": "Portugal",
+    "Nis124": "Roumanie",
+    "Nis125": "Saint-Marin",
+    "Nis126": "Suède",
+    "Nis127": "Suisse",
+    "Nis128": "Italie",
+    "Nis129": "Pays-Bas",
+    "Nis130": "Tchécoslovaquie",
+    "Nis131": "Union d.Rép.Soc.Soviét.",
+    "Nis132": "Yougoslavie (Serbie-Montenegro)",
+    "Nis133": "Saint-Siège",
+    "Nis134": "Allemagne",
+    "Nis135": "Lettonie",
+    "Nis136": "Estonie",
+    "Nis137": "Lituanie",
+    "Nis138": "Hongrie(République)",
+    "Nis139": "Pologne(République)",
+    "Nis140": "République Tchèque",
+    "Nis141": "République Slovaque",
+    "Nis142": "Biélorussie ( Rép. )",
+    "Nis143": "Ukraine ( Rép. )",
+    "Nis144": "Moldavie ( Rép. )",
+    "Nis145": "Russie ( Fédération de )",
+    "Nis146": "Croatie ( Rép. de )",
+    "Nis147": "Slovénie ( Rép. de )",
+    "Nis148": "Macédoine (Ex-Rép. yougoslave de)",
+    "Nis149": "Bosnie-Herzégovine (Rép. de)",
+    "Nis150": "Belgique",
+    "Nis151": "Monténégro",
+    "Nis152": "Serbie",
+    "Nis153": "Kosovo",
+    "Nis169": "Yougoslavie",
+    "Nis170": "Allemagne ( Rép. dém. )",
+    "Nis171": "Tchécoslovaquie",
+    "Nis172": "Union d. Rép. Soc. Soviét.",
+    "Nis173": "Allemagne",
+    "Nis180": "Gibraltar",
+    "Nis201": "Myanmar (Union de)",
+    "Nis202": "Rép. Khmer du Cambodge",
+    "Nis203": "Sri Lanka",
+    "Nis204": "Chine-Taïwan ( Rép. de )",
+    "Nis205": "Singapour",
+    "Nis206": "Corée du Sud ( Rép. de )",
+    "Nis207": "Inde",
+    "Nis208": "Indonésie",
+    "Nis209": "Japon",
+    "Nis210": "Laos",
+    "Nis211": "Cambodge",
+    "Nis212": "Malaisie",
+    "Nis213": "Nepal",
+    "Nis214": "Philippines",
+    "Nis215": "Timor-Leste (République démocratique)",
+    "Nis216": "Cambodge (Royaume du)",
+    "Nis217": "Vietnam du Sud",
+    "Nis218": "Chine /Rép. pop./",
+    "Nis219": "Corée du Nord ( Rép. de )",
+    "Nis220": "République socialiste du Vietnam",
+    "Nis221": "Mongolie(Rép.pop.de.)",
+    "Nis222": "Maldives",
+    "Nis223": "Bhoutan",
+    "Nis224": "Brunei",
+    "Nis225": "Kazakhstan ( Rép. )",
+    "Nis226": "Kirghizie ( Rep. )",
+    "Nis227": "Ouzbékistan ( Rép. )",
+    "Nis228": "Tadjikistan ( Rép. )",
+    "Nis229": "Turkménistan ( Rép. )",
+    "Nis230": "Chine (Hong-Kong SAR)",
+    "Nis231": "Chine (Macao SAR)",
+    "Nis234": "Hong-Kong",
+    "Nis235": "Thaïlande",
+    "Nis237": "Bangladesh",
+    "Nis249": "Arménie ( Rép. )",
+    "Nis250": "Azerbaïdjan ( Rép. )",
+    "Nis251": "Afghanistan",
+    "Nis252": "Arabie Saoudite",
+    "Nis253": "Géorgie ( Rép. )",
+    "Nis254": "Irak",
+    "Nis255": "Iran",
+    "Nis256": "Israël",
+    "Nis257": "Jordanie",
+    "Nis258": "Liban",
+    "Nis259": "Pakistan",
+    "Nis260": "Emirats arabes unis",
+    "Nis261": "Syrie /Rép. Arabe Syrienne/",
+    "Nis262": "Turquie",
+    "Nis263": "Yemen(Rép.arabe)",
+    "Nis264": "Koweit/Principauté de/",
+    "Nis265": "Yemen(Rép.démocrat.popul.)",
+    "Nis266": "Sultanat d'Oman",
+    "Nis267": "Qatar",
+    "Nis268": "Bahrein",
+    "Nis269": "Abu Dhabi",
+    "Nis270": "Yemen(Rép.du)",
+    "Nis271": "Palestine",
+    "Nis279": "Vietnam du Sud",
+    "Nis280": "Hong Kong(R.U.)",
+    "Nis281": "Macao",
+    "Nis282": "Timor",
+    "Nis283": "Palestine",
+    "Nis301": "Lesotho",
+    "Nis302": "Botswana",
+    "Nis303": "Burundi",
+    "Nis304": "Cameroun",
+    "Nis305": "République Centrafricaine",
+    "Nis306": "Congo (Rép. dém.)",
+    "Nis307": "Congo(Rép. pop. du)",
+    "Nis308": "Burkina Faso",
+    "Nis309": "Côte d'Ivoire",
+    "Nis310": "Bénin(Rép. pop. du)",
+    "Nis311": "Ethiopie",
+    "Nis312": "Gabon",
+    "Nis313": "Gambie",
+    "Nis314": "Ghana",
+    "Nis315": "Guinée",
+    "Nis316": "Haute-Volta",
+    "Nis317": "Maurice /Ile/",
+    "Nis318": "Libéria",
+    "Nis319": "Mali",
+    "Nis320": "Sénégal",
+    "Nis321": "Niger",
+    "Nis322": "Nigéria(Rép. Féder.)",
+    "Nis323": "Ouganda",
+    "Nis324": "Rép.démocrat. de Madagascar",
+    "Nis325": "Afrique du Sud /Rép. d'/",
+    "Nis326": "Rhodésie",
+    "Nis327": "Rwanda /Rép./",
+    "Nis328": "Sierra Leone",
+    "Nis329": "Somalie /Rép./",
+    "Nis331": "Ngwane (Royaume du Swaziland)",
+    "Nis332": "Tanzanie(Rép.Unie de)",
+    "Nis333": "Tchad",
+    "Nis334": "Togo",
+    "Nis335": "Zambie",
+    "Nis336": "Kenya",
+    "Nis337": "Guinée équatoriale",
+    "Nis338": "Guinée-Bissau",
+    "Nis339": "Cap Vert/Iles du/",
+    "Nis340": "Mozambique",
+    "Nis341": "Angola",
+    "Nis342": "Seychelles(Iles)",
+    "Nis343": "Archipel des Comores",
+    "Nis344": "Zimbabwe",
+    "Nis345": "République de Djibouti",
+    "Nis346": "Sao Tomé et Principe (Rép. dém. de)",
+    "Nis347": "Swaziland",
+    "Nis348": "Sénégambie",
+    "Nis349": "Erythrée",
+    "Nis351": "Algérie",
+    "Nis352": "Rép. Arabe d'Egypte",
+    "Nis353": "Libye",
+    "Nis354": "Maroc",
+    "Nis355": "Mauritanie /Rép. Islamique de/",
+    "Nis356": "Soudan",
+    "Nis357": "Tunisie",
+    "Nis358": "Malawi",
+    "Nis359": "Congo belge",
+    "Nis360": "Ruanda",
+    "Nis361": "Urundi",
+    "Nis362": "Congo (Rép. du)",
+    "Nis364": "Zaïre (République du)",
+    "Nis365": "Soudan du Sud",
+    "Nis380": "Afars et Issas",
+    "Nis381": "Angola",
+    "Nis382": "Cabinda",
+    "Nis383": "Mozambique",
+    "Nis384": "Namibie",
+    "Nis385": "Iles du Cap Vert",
+    "Nis386": "Archipel des Comores",
+    "Nis387": "Réunion",
+    "Nis388": "Sahara",
+    "Nis389": "Sainte-Hélène(Ile)",
+    "Nis390": "Seychelles (Iles)",
+    "Nis391": "Guinée portugaise",
+    "Nis392": "Fernando Poo",
+    "Nis393": "Ile de Santhomé",
+    "Nis395": "Swaziland",
+    "Nis396": "Transkei",
+    "Nis397": "Bophutatswana",
+    "Nis398": "Iles Canaries(E.)",
+    "Nis399": "Madère(P.)",
+    "Nis401": "Canada",
+    "Nis402": "Etats-Unis d'Amérique",
+    "Nis403": "Antigua",
+    "Nis411": "Costa Rica",
+    "Nis412": "Cuba",
+    "Nis413": "Guatémala",
+    "Nis414": "Honduras",
+    "Nis415": "Jamaïque",
+    "Nis416": "Mexique",
+    "Nis417": "Nicaragua",
+    "Nis418": "Panama",
+    "Nis419": "Haïti",
+    "Nis420": "Dominicaine /Rép./",
+    "Nis421": "El Salvador",
+    "Nis422": "Trinidad et Tobago",
+    "Nis423": "Barbade",
+    "Nis424": "Antilles britanniques",
+    "Nis425": "Bahamas",
+    "Nis426": "Grenade",
+    "Nis427": "Dominique (République)",
+    "Nis428": "République de Sainte Lucie",
+    "Nis429": "Saint-Vincent",
+    "Nis430": "Belize",
+    "Nis431": "St. Kitts et Nevis",
+    "Nis480": "Ile de Dominica",
+    "Nis481": "Antilles françaises",
+    "Nis482": "Antilles néerlandaises",
+    "Nis483": "Antilles américaines",
+    "Nis484": "Bahamas",
+    "Nis485": "Bermudes",
+    "Nis486": "Iles Vierges",
+    "Nis487": "Porto-Rico(Ile de)",
+    "Nis488": "Iles Turks et Caicos",
+    "Nis489": "Belize(R.U.)",
+    "Nis490": "Anguilla(R.U.)",
+    "Nis491": "Antigua(R.U.)",
+    "Nis492": "Caïmanes(R.U.)",
+    "Nis493": "Montserrat(R.U.)",
+    "Nis494": "Kitts and Nevis(R.U.)",
+    "Nis495": "Saint-Pierre et Miquelon(F.)",
+    "Nis496": "La Guadeloupe(F.)",
+    "Nis497": "La Martinique(F.)",
+    "Nis498": "Le Groenland(D.K.)",
+    "Nis511": "Argentine",
+    "Nis512": "Bolivie",
+    "Nis513": "Brésil",
+    "Nis514": "Chili",
+    "Nis515": "Colombie",
+    "Nis516": "Equateur",
+    "Nis517": "Paraguay",
+    "Nis518": "Pérou",
+    "Nis519": "Uruguay",
+    "Nis520": "Vénézuéla",
+    "Nis521": "Guyane",
+    "Nis522": "Surinam",
+    "Nis580": "Iles Falkland",
+    "Nis581": "Guyane Française",
+    "Nis582": "Honduras britannique",
+    "Nis583": "Guyane hollandaise",
+    "Nis602": "Micronésie",
+    "Nis603": "Iles Marshall (République des)",
+    "Nis604": "Niue",
+    "Nis605": "Cook",
+    "Nis611": "Australie",
+    "Nis613": "Nouvelle-Zélande",
+    "Nis614": "Samoa occidentales",
+    "Nis615": "Nauru",
+    "Nis616": "Tonga",
+    "Nis617": "Fidji",
+    "Nis618": "Nouvelles-Hébrides",
+    "Nis619": "Papouasie-Nouvelle-Guinée",
+    "Nis620": "Pacifique/Iles du/",
+    "Nis621": "Tuvalu",
+    "Nis622": "Iles Gilbert",
+    "Nis623": "Iles Salomon",
+    "Nis624": "Vanuatu",
+    "Nis679": "Palau",
+    "Nis680": "Archipel des Carolines",
+    "Nis681": "Guam",
+    "Nis682": "Hawaï",
+    "Nis683": "Nouvelle-Calédonie",
+    "Nis684": "Polynésie",
+    "Nis685": "Niue-ile(N-Z.)",
+    "Nis686": "Tokelau(N-Z.)",
+    "Nis687": "Cook(N-Z.)",
+    "Nis688": "Tahiti",
+    "Nis689": "Wallis et Futuna(F.)",
+    "Nis690": "Samoa américaines",
+    "Nis691": "Territ sous tutelle américaine",
+    "Nis692": "Pitcairn(terr.dép.du R.U.)",
+    "Nis693": "Territ.dép.de l'Australie",
+    "Nis694": "Territ.dép.de la Nelle Zélande",
+    "Nis900": "Apatride",
+    "Nis901": "pas encore définitivement établie",
+    "Nis992": "Rayé pour l'étranger",
+    "Nis995": "En mer",
+    "Nis999": "Indéterminé"
+  }
+}

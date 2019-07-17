@@ -1,0 +1,11 @@
+{
+  "voordeel": {
+    "hostnameUrl": "http://localhost:4000",
+    "featureServiceUrl": "http://localhost:4000/feature",
+    "paths": {
+      "details": "/dossier/persoon/#synergyId",
+      "uitgifte": "/uitgifte",
+      "excel": "/excel"
+    }
+  }
+}
