@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CobenContainerComponent implements OnInit {
   // tslint:disable-next-line:variable-name
-  private _opened = false;
+  public _opened = false;
 
   constructor() {
   }
@@ -14,7 +14,7 @@ export class CobenContainerComponent implements OnInit {
   ngOnInit() {
   }
 
-  private _toggleSidebar() {
+  public _toggleSidebar() {
     this._opened = !this._opened;
   }
 }
