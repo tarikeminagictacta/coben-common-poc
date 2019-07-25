@@ -4,14 +4,17 @@
   <ng-sidebar  mode="push" [opened]="_opened">
 <div class="container-fluid bg-dark" style="width: 300px; height: 100vh;">
 <div class="text-warning">
-  Testing 1 - 2 - 3
+ <ul>
+   <li><a href="http://localhost/finance">Finance</a></li>
+   <li><a href="http://localhost/finance">Legitimatiekaart</a></li>
+   <li><a href="http://localhost/finance">SociaalVoordeel</a></li>
+ </ul>
 </div>
 </div>
   </ng-sidebar>
 
   <!-- Page content -->
   <div ng-sidebar-content>
-    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button (click)="_toggleSidebar()">Toggle sidebar</button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -26,7 +29,6 @@
         </div>
       </nav>
       <ng-content></ng-content>
-    </div>
   </div>
 
 </ng-sidebar-container>

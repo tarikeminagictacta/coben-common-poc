@@ -1,11 +1,26 @@
 {
-  "voordeel": {
-    "hostnameUrl": "http://localhost:4000",
-    "featureServiceUrl": "http://localhost:4000/feature",
-    "paths": {
-      "details": "/dossier/persoon/#synergyId",
-      "uitgifte": "/uitgifte",
-      "excel": "/excel"
+  "rootUrl": "http://localhost",
+  "advantages": [
+    {
+      "legitimatiekaart": {
+        "hostPath": "/lk",
+        "featureServiceUrl": "http://localhost:4000/feature",
+        "paths": {
+          "details": "/dossier/persoon/#synergyId",
+          "uitgifte": "/uitgifte",
+          "excel": "/excel"
+        }
+      },
+      "finance": {
+        "hostPath": "/finance",
+        "featureServiceUrl": "http://localhost:4000/feature",
+        "paths": {
+          "overview": "/dossier/persoon/#synergyId",
+          "uitgifte": "/uitgifte",
+          "excel": "/excel"
+        }
+      }
     }
-  }
+
+  ]
 }

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './coben-container.component.html',
 })
 export class CobenContainerComponent implements OnInit {
-  // tslint:disable-next-line:variable-name
+
   public _opened = false;
 
   constructor() {
